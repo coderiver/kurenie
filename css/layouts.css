@@ -1,1 +1,10 @@
+@charset "IBM866";
+@font-face {
+  font-family: 'Conv_Mbr-Kraftwerk-RU';
+  src: url("fonts/Mbr-Kraftwerk-RU.eot");
+  src: local("☺"), url("../fonts/Mbr-Kraftwerk-RU.woff") format("woff"), url("../fonts/Mbr-Kraftwerk-RU.ttf") format("truetype"), url("../fonts/Mbr-Kraftwerk-RU.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*layouts*/

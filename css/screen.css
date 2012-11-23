@@ -1,3 +1,12 @@
+@charset "IBM866";
+@font-face {
+  font-family: 'Conv_Mbr-Kraftwerk-RU';
+  src: url("fonts/Mbr-Kraftwerk-RU.eot");
+  src: local("☺"), url("../fonts/Mbr-Kraftwerk-RU.woff") format("woff"), url("../fonts/Mbr-Kraftwerk-RU.ttf") format("truetype"), url("../fonts/Mbr-Kraftwerk-RU.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*resets*/
 /* line 4, ../scss/common.scss */
 * {
@@ -31,11 +40,18 @@ input, textarea, button {
 }
 
 /* line 24, ../scss/common.scss */
+.h1 {
+  font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* line 29, ../scss/common.scss */
 .body_inner {
   background: url(../img/bg1.jpg) no-repeat 50% 0 #001856;
 }
 
-/* line 27, ../scss/common.scss */
+/* line 32, ../scss/common.scss */
 .clr {
   clear: both;
   height: 1px;
@@ -44,7 +60,7 @@ input, textarea, button {
 }
 
 /*general styles*/
-/* line 34, ../scss/common.scss */
+/* line 39, ../scss/common.scss */
 .container {
   position: relative;
   max-width: 1200px;
@@ -53,7 +69,7 @@ input, textarea, button {
 }
 
 /*nav*/
-/* line 41, ../scss/common.scss */
+/* line 46, ../scss/common.scss */
 .nav {
   position: absolute;
   top: 65px;
@@ -67,63 +83,79 @@ input, textarea, button {
   -o-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 49, ../scss/common.scss */
+/* line 54, ../scss/common.scss */
 .nav li {
   float: left;
 }
-/* line 52, ../scss/common.scss */
+/* line 57, ../scss/common.scss */
 .nav a {
   font-size: 10px;
   color: #fff;
 }
-/* line 55, ../scss/common.scss */
+/* line 60, ../scss/common.scss */
 .nav a:hover {
   color: #fffc1b;
 }
-/* line 59, ../scss/common.scss */
+/* line 64, ../scss/common.scss */
 .nav span {
   margin: 0 15px;
   color: #8498c8;
 }
 
 /*footer*/
-/* line 65, ../scss/common.scss */
+/* line 70, ../scss/common.scss */
 .footer {
   position: relative;
   width: 100%;
   height: 100px;
   background: #001856;
 }
-/* line 70, ../scss/common.scss */
+/* line 75, ../scss/common.scss */
 .footer ul {
   margin-left: 118px;
   height: 20px;
   line-height: 20px;
 }
-/* line 75, ../scss/common.scss */
+/* line 80, ../scss/common.scss */
 .footer li {
   float: left;
   text-transform: uppercase;
   color: #fff;
   font-size: 10px;
 }
-/* line 81, ../scss/common.scss */
+/* line 86, ../scss/common.scss */
 .footer a {
   color: #fff;
 }
-/* line 84, ../scss/common.scss */
+/* line 89, ../scss/common.scss */
 .footer span {
   margin: 0 5px;
 }
 
-/* line 88, ../scss/common.scss */
+/* line 93, ../scss/common.scss */
 .footer__title {
   border-bottom: 3px solid #d2d2d2;
   background: #fff;
   text-align: center;
 }
 
+@font-face {
+  font-family: 'Conv_Mbr-Kraftwerk-RU';
+  src: url("fonts/Mbr-Kraftwerk-RU.eot");
+  src: local("☺"), url("../fonts/Mbr-Kraftwerk-RU.woff") format("woff"), url("../fonts/Mbr-Kraftwerk-RU.ttf") format("truetype"), url("../fonts/Mbr-Kraftwerk-RU.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*layouts*/
+@font-face {
+  font-family: 'Conv_Mbr-Kraftwerk-RU';
+  src: url("fonts/Mbr-Kraftwerk-RU.eot");
+  src: local("☺"), url("../fonts/Mbr-Kraftwerk-RU.woff") format("woff"), url("../fonts/Mbr-Kraftwerk-RU.ttf") format("truetype"), url("../fonts/Mbr-Kraftwerk-RU.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*main*/
 /* line 4, ../scss/main.scss */
 .main {
@@ -215,7 +247,7 @@ input, textarea, button {
   position: absolute;
   top: 5px;
   right: 0;
-  background: url('../img/icons-sbf56b4270b.png') 0 0 no-repeat;
+  background: url('../img/icons-sda54945c23.png') 0 -185px no-repeat;
   width: 42px;
   height: 24px;
 }
@@ -345,7 +377,7 @@ input, textarea, button {
   position: absolute;
   top: 5px;
   left: 10px;
-  background: url('../img/icons-sbf56b4270b.png') 0 -34px no-repeat;
+  background: url('../img/icons-sda54945c23.png') 0 -219px no-repeat;
   width: 34px;
   height: 32px;
 }
@@ -401,7 +433,7 @@ input, textarea, button {
   position: absolute;
   top: 13px;
   left: 90px;
-  background: url('../img/icons-sbf56b4270b.png') 0 -76px no-repeat;
+  background: url('../img/icons-sda54945c23.png') 0 -261px no-repeat;
   width: 7px;
   height: 84px;
 }
@@ -512,6 +544,14 @@ input, textarea, button {
   background: url(../img/wheel-r-s.png) no-repeat 0 0;
 }
 
+@font-face {
+  font-family: 'Conv_Mbr-Kraftwerk-RU';
+  src: url("fonts/Mbr-Kraftwerk-RU.eot");
+  src: local("☺"), url("../fonts/Mbr-Kraftwerk-RU.woff") format("woff"), url("../fonts/Mbr-Kraftwerk-RU.ttf") format("truetype"), url("../fonts/Mbr-Kraftwerk-RU.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*screen-out*/
 /* line 4, ../scss/inner.scss */
 .wrap {
@@ -556,7 +596,7 @@ input, textarea, button {
   top: 235px;
   left: 30px;
   width: 104px;
-  padding: 20px;
+  padding: 20px 20px 15px 20px;
   background: #253d67;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -602,23 +642,187 @@ input, textarea, button {
   position: absolute;
   top: 13px;
   left: 1px;
-  background: url('../img/icons-sbf56b4270b.png') 0 -170px no-repeat;
+  background: url('../img/icons-sda54945c23.png') 0 -376px no-repeat;
   width: 16px;
   height: 18px;
 }
 
-/* line 73, ../scss/inner.scss */
+/* line 72, ../scss/inner.scss */
+.codes__scroll {
+  width: 112px;
+  height: 122px;
+  overflow: auto;
+}
+/* line 76, ../scss/inner.scss */
 .codes__scroll ul {
+  width: 90px;
   padding-left: 4px;
 }
-/* line 77, ../scss/inner.scss */
+/* line 80, ../scss/inner.scss */
+.codes__scroll li {
+  padding-bottom: 15px;
+}
+/* line 83, ../scss/inner.scss */
 .codes__scroll b {
   font-size: 11px;
   color: #ffe400;
 }
-/* line 81, ../scss/inner.scss */
+/* line 87, ../scss/inner.scss */
 .codes__scroll span {
-  display: block;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 92, ../scss/inner.scss */
+.codes__scroll b, .codes__scroll span {
+  display: block;
+  margin-bottom: 2px;
+}
+
+/*photo-group*/
+/* line 98, ../scss/inner.scss */
+.photo-group {
+  position: absolute;
+  top: 515px;
+  left: 30px;
+  background: url('../img/icons-sda54945c23.png') 0 0 no-repeat;
+  width: 150px;
+  height: 175px;
+}
+
+/*rate*/
+/* line 105, ../scss/inner.scss */
+.rate {
+  position: absolute;
+  right: 10px;
+  bottom: 218px;
+  width: 155px;
+  padding: 20px 15px 30px 15px;
+  background: #355493;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 113, ../scss/inner.scss */
+.rate .h1 {
+  margin-bottom: 10px;
+}
+/* line 116, ../scss/inner.scss */
+.rate ul {
+  margin-bottom: 15px;
+}
+/* line 119, ../scss/inner.scss */
+.rate li {
+  height: 22px;
+  border-top: 1px solid #5372b1;
+  line-height: 22px;
+  overflow: hidden;
+  color: #fff;
+}
+/* line 125, ../scss/inner.scss */
+.rate li span {
+  float: left;
+  width: 115px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 132, ../scss/inner.scss */
+.rate li b {
+  float: right;
+  font-weight: normal;
+}
+
+/* line 138, ../scss/inner.scss */
+.rate__result {
+  margin-bottom: 7px;
+  font-size: 11px;
+  color: #ffc600;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*scroll*/
+/* line 147, ../scss/inner.scss */
+.jspContainer {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 152, ../scss/inner.scss */
+.jspPane {
+  position: absolute;
+}
+
+/* line 156, ../scss/inner.scss */
+.jspVerticalBar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 11px;
+  height: 100%;
+}
+
+/* line 164, ../scss/inner.scss */
+.jspCap {
+  display: none;
+}
+
+/* line 168, ../scss/inner.scss */
+.jspTrack {
+  width: 3px;
+  right: -4px;
+  background: #103067;
+  position: relative;
+}
+
+/* line 175, ../scss/inner.scss */
+.jspDrag {
+  background: #bbd;
+  position: relative;
+  top: 0;
+  left: -4px;
+  cursor: pointer;
+  background: url('../img/icons-sda54945c23.png') 0 -355px no-repeat;
+  width: 11px;
+  height: 11px;
+}
+
+/* line 184, ../scss/inner.scss */
+.jspArrow {
+  background: #50506d;
+  text-indent: -20000px;
+  display: block;
+  cursor: pointer;
+}
+
+/* line 191, ../scss/inner.scss */
+.jspArrow.jspDisabled {
+  cursor: default;
+  background: #80808d;
+}
+
+/* line 196, ../scss/inner.scss */
+.jspVerticalBar .jspArrow {
+  height: 16px;
+}
+
+/* line 200, ../scss/inner.scss */
+.jspVerticalBar .jspArrow:focus {
+  outline: none;
+}
+
+/* line 204, ../scss/inner.scss */
+.jspCorner {
+  background: #eeeef4;
+  float: left;
+  height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+/* line 212, ../scss/inner.scss */
+* html .jspCorner {
+  margin: 0 -3px 0 0;
 }

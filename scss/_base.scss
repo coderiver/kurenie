@@ -10,6 +10,15 @@ $icons: sprite-map("icons/*.png", $spacing: 10px,$btn-repeat: repeat-x);
 	@include image-size(sprite-file($map, $sprite));
 }
 $blue: #001856;
-
+@font-face {
+	font-family: 'Conv_Mbr-Kraftwerk-RU';
+	src: url('fonts/Mbr-Kraftwerk-RU.eot');
+	src: local('☺'), 
+	url('../fonts/Mbr-Kraftwerk-RU.woff') format('woff'), 
+	url('../fonts/Mbr-Kraftwerk-RU.ttf') format('truetype'), 
+	url('../fonts/Mbr-Kraftwerk-RU.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 
