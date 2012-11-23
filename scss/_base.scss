@@ -1,0 +1,15 @@
+$experimental-support-for-svg: true;
+$icons-btn-repeat: repeat-x !default;
+$icons: sprite-map("icons/*.png", $spacing: 10px,$btn-repeat: repeat-x);
+@mixin image-size($path) {
+	width: image-width($path);
+	height: image-height($path);
+}
+@mixin sized-sprite($map, $sprite) {
+	background: sprite($map, $sprite) no-repeat;
+	@include image-size(sprite-file($map, $sprite));
+}
+$blue: #001856;
+
+
+
