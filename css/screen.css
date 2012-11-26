@@ -70,7 +70,7 @@ input, textarea, button {
 /* line 44, ../scss/common.scss */
 .container {
   position: relative;
-  max-width: 1200px;
+  width: 1200px;
   min-width: 996px;
   margin: 0 auto;
 }
