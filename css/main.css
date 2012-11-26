@@ -24,8 +24,9 @@
   width: 256px;
   height: 205px;
   background: url(../img/paper.png) no-repeat 0 0;
+  z-index: 20;
 }
-/* line 17, ../scss/main.scss */
+/* line 18, ../scss/main.scss */
 .paper a {
   position: absolute;
   right: 12px;
@@ -35,7 +36,7 @@
 }
 
 /*tank*/
-/* line 26, ../scss/main.scss */
+/* line 27, ../scss/main.scss */
 .tank {
   position: absolute;
   top: 170px;
@@ -45,31 +46,31 @@
   background: url(../img/tank.png) no-repeat 0 0;
 }
 
-/* line 34, ../scss/main.scss */
+/* line 35, ../scss/main.scss */
 .tank__code {
   position: absolute;
   bottom: 29px;
   left: 32px;
   color: #fff;
 }
-/* line 39, ../scss/main.scss */
+/* line 40, ../scss/main.scss */
 .tank__code li {
   line-height: 1.3;
 }
-/* line 42, ../scss/main.scss */
+/* line 43, ../scss/main.scss */
 .tank__code span {
   color: #3de9e8;
 }
-/* line 45, ../scss/main.scss */
+/* line 46, ../scss/main.scss */
 .tank__code .tank__code-last {
   margin-left: 7px;
 }
-/* line 47, ../scss/main.scss */
+/* line 48, ../scss/main.scss */
 .tank__code .tank__code-last span {
   color: #f1d59f;
 }
 
-/* line 52, ../scss/main.scss */
+/* line 53, ../scss/main.scss */
 .tank__circle {
   position: absolute;
   right: 21px;
@@ -79,7 +80,7 @@
   font-weight: bold;
 }
 
-/* line 60, ../scss/main.scss */
+/* line 61, ../scss/main.scss */
 .tank__boost {
   position: absolute;
   bottom: -65px;
@@ -87,13 +88,13 @@
   color: #fff;
   text-align: right;
 }
-/* line 66, ../scss/main.scss */
+/* line 67, ../scss/main.scss */
 .tank__boost b {
   position: relative;
   padding-right: 45px;
   font-size: 28px;
 }
-/* line 70, ../scss/main.scss */
+/* line 71, ../scss/main.scss */
 .tank__boost b i {
   position: absolute;
   top: 5px;
@@ -102,16 +103,16 @@
   width: 42px;
   height: 24px;
 }
-/* line 77, ../scss/main.scss */
+/* line 78, ../scss/main.scss */
 .tank__boost a {
   color: #fff;
 }
-/* line 80, ../scss/main.scss */
+/* line 81, ../scss/main.scss */
 .tank__boost p {
   line-height: 1.3;
 }
 
-/* line 84, ../scss/main.scss */
+/* line 85, ../scss/main.scss */
 .tank__full, .tank__use {
   position: absolute;
   bottom: 88px;
@@ -120,28 +121,26 @@
   height: 277px;
 }
 
-/* line 91, ../scss/main.scss */
+/* line 92, ../scss/main.scss */
 .tank__full {
   background: url(../img/tank-full.png) no-repeat 0 100%;
 }
 
-/* line 94, ../scss/main.scss */
+/* line 95, ../scss/main.scss */
 .tank__use {
   background: url(../img/tank-use.png) no-repeat 0 100%;
 }
 
-/* line 97, ../scss/main.scss */
-.tank-fill {
+/* line 98, ../scss/main.scss */
+.tank-fill, .boost {
   position: absolute;
-  top: 370px;
   left: 50%;
   width: 130px;
   height: 120px;
   margin-left: -60px;
-  background: url(../img/tank-fill.png) no-repeat 0 0;
 }
-/* line 105, ../scss/main.scss */
-.tank-fill input {
+/* line 104, ../scss/main.scss */
+.tank-fill input, .boost input {
   position: absolute;
   top: 45px;
   -webkit-border-radius: 2px;
@@ -152,39 +151,70 @@
   background: #fff;
   text-align: center;
 }
-/* line 112, ../scss/main.scss */
-.tank-fill .tank-fill__code {
+/* line 111, ../scss/main.scss */
+.tank-fill .tank-fill__code, .tank-fill .boost__code, .boost .tank-fill__code, .boost .boost__code {
   left: 15px;
   width: 74px;
   height: 19px;
   line-height: 19px;
   font-size: 9px;
-  color: #abbee7;
 }
-/* line 120, ../scss/main.scss */
-.tank-fill .tank-fill__btn {
+/* line 118, ../scss/main.scss */
+.tank-fill .tank-fill__btn, .tank-fill .boost__btn, .boost .tank-fill__btn, .boost .boost__btn {
   right: 16px;
   width: 19px;
   height: 19px;
-  border: 2px solid #0b1c70;
   font-size: 7px;
-  color: #003ab5;
   cursor: pointer;
 }
 
+/* line 126, ../scss/main.scss */
+.tank-fill {
+  top: 370px;
+  background: url(../img/tank-fill.png) no-repeat 0 0;
+}
+
+/* line 130, ../scss/main.scss */
+.tank-fill__code {
+  color: #abbee7;
+}
+
+/* line 133, ../scss/main.scss */
+.tank-fill__btn {
+  border: 2px solid #0b1c70;
+  color: #003ab5;
+}
+
+/* line 137, ../scss/main.scss */
+.boost {
+  top: 150px;
+  background: url(../img/boost.png) no-repeat 0 0;
+}
+
+/* line 141, ../scss/main.scss */
+.boost__code {
+  color: #d5afb6;
+}
+
+/* line 144, ../scss/main.scss */
+.boost__btn {
+  border: 2px solid #a53c50;
+  color: #7f0b20;
+}
+
 /*road*/
-/* line 131, ../scss/main.scss */
+/* line 149, ../scss/main.scss */
 .road {
   position: relative;
 }
-/* line 133, ../scss/main.scss */
+/* line 151, ../scss/main.scss */
 .road .container {
   position: relative;
   height: 256px;
   z-index: 10;
 }
 
-/* line 139, ../scss/main.scss */
+/* line 157, ../scss/main.scss */
 .curb {
   position: absolute;
   top: 0;
@@ -194,7 +224,7 @@
   background: url(../img/curb.jpg);
 }
 
-/* line 147, ../scss/main.scss */
+/* line 165, ../scss/main.scss */
 .asphalt {
   position: absolute;
   top: 80px;
@@ -204,8 +234,18 @@
   background: url(../img/road.jpg);
 }
 
+/* line 173, ../scss/main.scss */
+.bordachok {
+  position: absolute;
+  bottom: 0;
+  right: -35px;
+  width: 480px;
+  height: 130px;
+  background: url(../img/bordachok.png) no-repeat 0 0;
+}
+
 /*stop*/
-/* line 156, ../scss/main.scss */
+/* line 182, ../scss/main.scss */
 .stop {
   position: absolute;
   top: 65px;
@@ -223,7 +263,7 @@
   font-weight: bold;
   text-shadow: 0 1px 1px #2a3d60;
 }
-/* line 168, ../scss/main.scss */
+/* line 194, ../scss/main.scss */
 .stop i {
   position: absolute;
   top: 5px;
@@ -234,7 +274,7 @@
 }
 
 /*speed*/
-/* line 176, ../scss/main.scss */
+/* line 202, ../scss/main.scss */
 .speed {
   position: absolute;
   left: 78px;
@@ -244,12 +284,12 @@
   padding-top: 190px;
   background: url(../img/speed.png) no-repeat 0 0;
 }
-/* line 184, ../scss/main.scss */
+/* line 210, ../scss/main.scss */
 .speed li {
   padding-top: 3px;
   overflow: hidden;
 }
-/* line 188, ../scss/main.scss */
+/* line 214, ../scss/main.scss */
 .speed b {
   float: left;
   width: 75px;
@@ -258,28 +298,28 @@
   text-align: right;
 }
 
-/* line 197, ../scss/main.scss */
+/* line 223, ../scss/main.scss */
 .speed__result b {
   color: #25b8ee;
 }
-/* line 200, ../scss/main.scss */
+/* line 226, ../scss/main.scss */
 .speed__result span {
   font-size: 10px;
   color: #fefefe;
 }
 
-/* line 206, ../scss/main.scss */
+/* line 232, ../scss/main.scss */
 .speed__point b {
   color: #e51f69;
 }
-/* line 209, ../scss/main.scss */
+/* line 235, ../scss/main.scss */
 .speed__point span {
   font-size: 13px;
   font-weight: bold;
   color: #d3ebf2;
 }
 
-/* line 215, ../scss/main.scss */
+/* line 241, ../scss/main.scss */
 .arr {
   position: absolute;
   top: 13px;
@@ -290,7 +330,7 @@
 }
 
 /*cars default*/
-/* line 222, ../scss/main.scss */
+/* line 248, ../scss/main.scss */
 .car {
   position: absolute;
   top: 37px;
@@ -299,7 +339,7 @@
   height: 135px;
 }
 
-/* line 229, ../scss/main.scss */
+/* line 255, ../scss/main.scss */
 .car__body {
   position: absolute;
   top: 0;
@@ -308,7 +348,7 @@
   height: 115px;
   z-index: 10;
 }
-/* line 236, ../scss/main.scss */
+/* line 262, ../scss/main.scss */
 .car__body i {
   position: absolute;
   bottom: -5px;
@@ -316,7 +356,7 @@
   height: 79px;
 }
 
-/* line 243, ../scss/main.scss */
+/* line 269, ../scss/main.scss */
 .car__shadow {
   position: absolute;
   left: 0;
@@ -328,68 +368,68 @@
 }
 
 /*car start*/
-/* line 254, ../scss/main.scss */
+/* line 280, ../scss/main.scss */
 .car_start .car__body {
   background: url(../img/car.png) no-repeat 0 0;
 }
-/* line 257, ../scss/main.scss */
+/* line 283, ../scss/main.scss */
 .car_start .car__wheel-left {
   left: 45px;
   background: url(../img/wheel-l.png) no-repeat 0 0;
 }
-/* line 261, ../scss/main.scss */
+/* line 287, ../scss/main.scss */
 .car_start .car__wheel-right {
   right: 80px;
   background: url(../img/wheel-r.png) no-repeat 0 0;
 }
 
 /*car run*/
-/* line 268, ../scss/main.scss */
+/* line 294, ../scss/main.scss */
 .car_run .car__body {
   top: 1px;
   background: url(../img/car-run.png) no-repeat 0 0;
 }
-/* line 271, ../scss/main.scss */
+/* line 297, ../scss/main.scss */
 .car_run .car__body i {
   bottom: -4px;
 }
-/* line 275, ../scss/main.scss */
+/* line 301, ../scss/main.scss */
 .car_run .car__wheel-left {
   left: 45px;
   background: url(../img/wheel-l-r.png) no-repeat 0 0;
 }
-/* line 279, ../scss/main.scss */
+/* line 305, ../scss/main.scss */
 .car_run .car__wheel-right {
   right: 86px;
   background: url(../img/wheel-r-r.png) no-repeat 0 0;
 }
 
 /*car split*/
-/* line 286, ../scss/main.scss */
+/* line 312, ../scss/main.scss */
 .car_run-split .car__wheel-left {
   left: 43px;
 }
-/* line 289, ../scss/main.scss */
+/* line 315, ../scss/main.scss */
 .car_run-split .car__wheel-right {
   right: 87px;
 }
 
 /*car save*/
-/* line 295, ../scss/main.scss */
+/* line 321, ../scss/main.scss */
 .car_save .car__body {
   top: 1px;
   background: url(../img/car-save.png) no-repeat 0 0;
 }
-/* line 298, ../scss/main.scss */
+/* line 324, ../scss/main.scss */
 .car_save .car__body i {
   bottom: -3px;
 }
-/* line 302, ../scss/main.scss */
+/* line 328, ../scss/main.scss */
 .car_save .car__wheel-left {
   left: 45px;
   background: url(../img/wheel-l-s.png) no-repeat 0 0;
 }
-/* line 306, ../scss/main.scss */
+/* line 332, ../scss/main.scss */
 .car_save .car__wheel-right {
   right: 80px;
   background: url(../img/wheel-r-s.png) no-repeat 0 0;

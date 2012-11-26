@@ -14,6 +14,7 @@
 	width: 256px;
 	height: 205px;
 	background: url(../img/paper.png) no-repeat 0 0;
+	z-index: 20;
 	a {
 		position: absolute;
 		right: 12px;
@@ -94,14 +95,12 @@
 .tank__use {
 	background: url(../img/tank-use.png) no-repeat 0 100%;
 }
-.tank-fill {
+.tank-fill, .boost {
 	position: absolute;
-	top: 370px;
 	left: 50%;
 	width: 130px;
 	height: 120px;
-	margin-left: -60px;
-	background: url(../img/tank-fill.png) no-repeat 0 0;
+	margin-left: -60px;	
 	input {
 		position: absolute;
 		top: 45px;
@@ -109,23 +108,42 @@
 		background: #fff;		
 		text-align: center;	
 	}
-	.tank-fill__code {
+	.tank-fill__code, .boost__code {
 		left: 15px;
 		width: 74px;
 		height: 19px;
 		line-height: 19px;
-		font-size: 9px;
-		color: #abbee7;
+		font-size: 9px;		
 	}
-	.tank-fill__btn {
+	.tank-fill__btn, .boost__btn {
 		right: 16px;
 		width: 19px;
-		height: 19px;
-		border: 2px solid #0b1c70;			
-		font-size: 7px;
-		color: #003ab5;
+		height: 19px;				
+		font-size: 7px;		
 		cursor: pointer;
 	}
+}
+.tank-fill {
+	top: 370px;
+	background: url(../img/tank-fill.png) no-repeat 0 0;
+}
+.tank-fill__code {
+	color: #abbee7;
+}
+.tank-fill__btn {
+	border: 2px solid #0b1c70;	
+	color: #003ab5;
+}
+.boost {
+	top: 150px;
+	background: url(../img/boost.png) no-repeat 0 0;
+}
+.boost__code {
+	color: #d5afb6;
+}
+.boost__btn {
+	border: 2px solid #a53c50;
+	color: #7f0b20;
 }
 /*road*/
 .road {		
@@ -151,6 +169,14 @@
 	width: 100%;
 	height: 176px;
 	background: url(../img/road.jpg);
+}
+.bordachok {
+	position: absolute;
+	bottom: 0;
+	right: -35px;
+	width: 480px;
+	height: 130px;
+	background: url(../img/bordachok.png) no-repeat 0 0;
 }
 /*stop*/
 .stop {
