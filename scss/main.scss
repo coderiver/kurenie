@@ -9,19 +9,48 @@
 /*paper*/
 .paper {
 	position: absolute;
-	top: 0;
+	top: -40px;
 	left: 30px;
-	width: 256px;
-	height: 205px;
+	width: 235px;
+	height: 225px;
 	background: url(../img/paper.png) no-repeat 0 0;
+	-webkit-transform: rotate(-5deg);
+		 -moz-transform: rotate(-5deg);       
+      -ms-transform: rotate(-5deg);
+       -o-transform: rotate(-5deg);  
+          transform: rotate(-5deg);
 	z-index: 20;
 	a {
 		position: absolute;
 		right: 12px;
-		bottom: 32px;
+		bottom: 10px;
 		width: 110px;
 		height: 20px;
 	}
+}
+.paper__map {
+	position: absolute;
+	top: 143px;
+	left: 17px;
+	width: 200px;
+	height: 45px;
+	overflow: hidden;
+}
+.paper__way {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 45px;
+	background: url(../img/way.png) no-repeat 0 0;
+	z-index: 5;
+}
+.paper__racer {
+	position: absolute;
+	top: 10px;
+	left: 80px;
+	@include sized-sprite($icons, racer);
+	z-index: 10;
 }
 /*tank*/
 .tank {
@@ -170,13 +199,47 @@
 	height: 176px;
 	background: url(../img/road.jpg);
 }
-.bordachok {
+.task {
 	position: absolute;
 	bottom: 0;
 	right: -35px;
 	width: 480px;
-	height: 130px;
-	background: url(../img/bordachok.png) no-repeat 0 0;
+	height: 90px;
+	background: url(../img/task.png) no-repeat 0 0;
+	a {
+		position: absolute;
+		width: 90px;
+		height: 105px;
+		padding: 5px;
+		background: #fff;
+		border: 1px solid #787878;
+		text-decoration: none;
+		color: #3a3a3a;
+	}
+	img {
+		margin-bottom: 5px;
+		border: 1px solid #787878;
+	}
+	span {
+		color: #203698;
+	}
+	.task__1 {
+		bottom: -2px;
+		left: 170px;
+		// -webkit-transform:rotate(-5deg);
+  //      -moz-transform:rotate(-5deg);
+  //       -ms-transform:rotate(-5deg);
+  //        -o-transform:rotate(-5deg);
+  //           transform:rotate(-5deg);	
+	}
+	.task__2 {
+		bottom: -4px;
+		left: 265px;			
+	}
+	.task__3 {
+		bottom: -6px;
+		left: 360px;	
+	}
 }
 /*stop*/
 .stop {
