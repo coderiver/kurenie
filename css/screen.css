@@ -20,7 +20,7 @@ body {
   font-weight: normal;
   font-size: 9px;
   line-height: 1;
-  background: url(../img/bg.jpg) no-repeat 50% 0 #001856;
+  background: url(../img/bg-1.jpg) no-repeat 50% 0 #001856;
 }
 
 /* line 14, ../scss/common.scss */
@@ -55,7 +55,7 @@ input, textarea, button {
 
 /* line 34, ../scss/common.scss */
 .body_inner {
-  background: url(../img/bg1.jpg) no-repeat 50% 0 #001856;
+  background: url(../img/bg1.jpg) no-repeat 50% -10px #001856;
 }
 
 /* line 37, ../scss/common.scss */
@@ -79,38 +79,39 @@ input, textarea, button {
 /* line 51, ../scss/common.scss */
 .nav {
   position: absolute;
-  top: 65px;
+  top: 60px;
   left: 50%;
   margin-left: -180px;
-  padding: 10px 20px;
-  background: #3c5dab;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-  border-radius: 15px;
+  padding: 12px 14px;
+  border: 2px solid #5c89b5;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  background: url(../img/nav-bg.jpg) no-repeat 0 0;
 }
-/* line 59, ../scss/common.scss */
+/* line 60, ../scss/common.scss */
 .nav li {
   float: left;
 }
-/* line 62, ../scss/common.scss */
+/* line 63, ../scss/common.scss */
 .nav a {
   font-size: 10px;
   color: #fff;
 }
-/* line 65, ../scss/common.scss */
+/* line 66, ../scss/common.scss */
 .nav a:hover {
   color: #fffc1b;
 }
-/* line 69, ../scss/common.scss */
+/* line 70, ../scss/common.scss */
 .nav span {
   margin: 0 15px;
-  color: #8498c8;
+  color: #fff;
 }
 
 /*footer*/
-/* line 75, ../scss/common.scss */
+/* line 76, ../scss/common.scss */
 .footer {
   position: relative;
   width: 100%;
@@ -119,29 +120,29 @@ input, textarea, button {
   border-top: 1px solid #000;
   z-index: 50;
 }
-/* line 82, ../scss/common.scss */
+/* line 83, ../scss/common.scss */
 .footer ul {
   margin-left: 118px;
   height: 20px;
   line-height: 20px;
 }
-/* line 87, ../scss/common.scss */
+/* line 88, ../scss/common.scss */
 .footer li {
   float: left;
   text-transform: uppercase;
   color: #fff;
   font-size: 10px;
 }
-/* line 93, ../scss/common.scss */
+/* line 94, ../scss/common.scss */
 .footer a {
   color: #fff;
 }
-/* line 96, ../scss/common.scss */
+/* line 97, ../scss/common.scss */
 .footer span {
   margin: 0 5px;
 }
 
-/* line 100, ../scss/common.scss */
+/* line 101, ../scss/common.scss */
 .footer__title {
   border-bottom: 3px solid #d2d2d2;
   background: #fff;
@@ -177,10 +178,10 @@ input, textarea, button {
 /* line 10, ../scss/main.scss */
 .paper {
   position: absolute;
-  top: -40px;
-  left: 30px;
-  width: 235px;
-  height: 225px;
+  top: -70px;
+  left: -90px;
+  width: 395px;
+  height: 285px;
   background: url(../img/paper.png) no-repeat 0 0;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
@@ -192,90 +193,88 @@ input, textarea, button {
 /* line 23, ../scss/main.scss */
 .paper a {
   position: absolute;
-  right: 12px;
-  bottom: 10px;
-  width: 110px;
-  height: 20px;
+  right: 180px;
+  bottom: 20px;
+  font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
+  font-size: 12px;
+  color: #ed1c24;
 }
 
-/* line 31, ../scss/main.scss */
+/* line 32, ../scss/main.scss */
 .paper__map {
   position: absolute;
-  top: 143px;
-  left: 17px;
+  top: 206px;
+  left: 121px;
   width: 200px;
-  height: 45px;
+  height: 30px;
   overflow: hidden;
 }
 
-/* line 39, ../scss/main.scss */
+/* line 40, ../scss/main.scss */
 .paper__way {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 200px;
-  height: 45px;
+  left: 5px;
+  width: 190px;
+  height: 30px;
   background: url(../img/way.png) no-repeat 0 0;
   z-index: 5;
 }
 
-/* line 48, ../scss/main.scss */
+/* line 49, ../scss/main.scss */
 .paper__racer {
   position: absolute;
-  top: 10px;
+  top: 12px;
   left: 80px;
-  background: url('../img/icons-s47177131ec.png') 0 -376px no-repeat;
-  width: 22px;
-  height: 19px;
+  background: url('../img/icons-s872b03ebd8.png') 0 -419px no-repeat;
+  width: 23px;
+  height: 17px;
   z-index: 10;
 }
 
 /*tank*/
-/* line 56, ../scss/main.scss */
+/* line 57, ../scss/main.scss */
 .tank {
   position: absolute;
-  top: 170px;
+  top: 160px;
   right: 40px;
-  width: 101px;
-  height: 386px;
+  width: 98px;
+  height: 410px;
   background: url(../img/tank.png) no-repeat 0 0;
 }
 
-/* line 64, ../scss/main.scss */
+/* line 65, ../scss/main.scss */
 .tank__code {
   position: absolute;
-  bottom: 29px;
-  left: 32px;
-  color: #fff;
+  bottom: 19px;
+  left: 17px;
+  color: #000;
 }
-/* line 69, ../scss/main.scss */
+/* line 70, ../scss/main.scss */
 .tank__code li {
   line-height: 1.3;
 }
-/* line 72, ../scss/main.scss */
-.tank__code span {
-  color: #3de9e8;
+/* line 73, ../scss/main.scss */
+.tank__code b {
+  font-size: 12px;
+  color: #ff0000;
 }
-/* line 75, ../scss/main.scss */
-.tank__code .tank__code-last {
-  margin-left: 7px;
-}
-/* line 77, ../scss/main.scss */
-.tank__code .tank__code-last span {
-  color: #f1d59f;
+/* line 78, ../scss/main.scss */
+.tank__code .tank__code-last b {
+  color: #6ab0ff;
 }
 
-/* line 82, ../scss/main.scss */
+/* line 83, ../scss/main.scss */
 .tank__circle {
   position: absolute;
-  right: 21px;
+  right: 20px;
   bottom: 18px;
   font-size: 14px;
-  color: #ff6c00;
+  color: #ff0000;
   font-weight: bold;
 }
 
-/* line 90, ../scss/main.scss */
+/* line 91, ../scss/main.scss */
 .tank__boost {
   position: absolute;
   bottom: -65px;
@@ -283,61 +282,65 @@ input, textarea, button {
   color: #fff;
   text-align: right;
 }
-/* line 96, ../scss/main.scss */
+/* line 97, ../scss/main.scss */
 .tank__boost b {
-  position: relative;
-  padding-right: 45px;
   font-size: 28px;
 }
 /* line 100, ../scss/main.scss */
-.tank__boost b i {
-  position: absolute;
-  top: 5px;
-  right: 0;
-  background: url('../img/icons-s47177131ec.png') 0 -185px no-repeat;
-  width: 42px;
-  height: 24px;
+.tank__boost span {
+  position: relative;
+  padding-left: 16px;
+  text-decoration: underline;
+  font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
+  color: #fff;
 }
 /* line 107, ../scss/main.scss */
+.tank__boost i {
+  position: absolute;
+  top: 13px;
+  left: 4px;
+  background: url('../img/icons-s872b03ebd8.png') 0 -520px no-repeat;
+  width: 7px;
+  height: 13px;
+}
+/* line 113, ../scss/main.scss */
 .tank__boost a {
   color: #fff;
 }
-/* line 110, ../scss/main.scss */
+/* line 116, ../scss/main.scss */
 .tank__boost p {
   line-height: 1.3;
 }
 
-/* line 114, ../scss/main.scss */
+/* line 120, ../scss/main.scss */
 .tank__full, .tank__use {
   position: absolute;
-  bottom: 88px;
-  right: 19px;
+  bottom: 86px;
+  right: 15px;
   width: 65px;
-  height: 277px;
+  height: 314px;
 }
 
-/* line 121, ../scss/main.scss */
+/* line 127, ../scss/main.scss */
 .tank__full {
   background: url(../img/tank-full.png) no-repeat 0 100%;
 }
 
-/* line 124, ../scss/main.scss */
+/* line 130, ../scss/main.scss */
 .tank__use {
   background: url(../img/tank-use.png) no-repeat 0 100%;
 }
 
-/* line 127, ../scss/main.scss */
+/* line 133, ../scss/main.scss */
 .tank-fill, .boost {
   position: absolute;
   left: 50%;
-  width: 130px;
-  height: 120px;
-  margin-left: -60px;
+  width: 140px;
+  margin-left: -70px;
 }
-/* line 133, ../scss/main.scss */
+/* line 138, ../scss/main.scss */
 .tank-fill input, .boost input {
   position: absolute;
-  top: 45px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -346,70 +349,62 @@ input, textarea, button {
   background: #fff;
   text-align: center;
 }
-/* line 140, ../scss/main.scss */
+/* line 144, ../scss/main.scss */
 .tank-fill .tank-fill__code, .tank-fill .boost__code, .boost .tank-fill__code, .boost .boost__code {
-  left: 15px;
+  left: 21px;
   width: 74px;
   height: 19px;
   line-height: 19px;
   font-size: 9px;
+  color: #abbee7;
 }
-/* line 147, ../scss/main.scss */
+/* line 152, ../scss/main.scss */
 .tank-fill .tank-fill__btn, .tank-fill .boost__btn, .boost .tank-fill__btn, .boost .boost__btn {
-  right: 16px;
+  right: 18px;
   width: 19px;
   height: 19px;
+  border: 2px solid #6f96de;
+  color: #003ab5;
   font-size: 7px;
   cursor: pointer;
 }
 
-/* line 155, ../scss/main.scss */
+/* line 162, ../scss/main.scss */
 .tank-fill {
   top: 370px;
+  height: 75px;
   background: url(../img/tank-fill.png) no-repeat 0 0;
 }
-
-/* line 159, ../scss/main.scss */
-.tank-fill__code {
-  color: #abbee7;
-}
-
-/* line 162, ../scss/main.scss */
-.tank-fill__btn {
-  border: 2px solid #0b1c70;
-  color: #003ab5;
-}
-
 /* line 166, ../scss/main.scss */
-.boost {
-  top: 150px;
-  background: url(../img/boost.png) no-repeat 0 0;
+.tank-fill input {
+  top: 32px;
 }
 
 /* line 170, ../scss/main.scss */
-.boost__code {
-  color: #d5afb6;
+.boost {
+  top: 245px;
+  height: 85px;
+  background: url(../img/boost.png) no-repeat 0 0;
+  z-index: 20;
 }
-
-/* line 173, ../scss/main.scss */
-.boost__btn {
-  border: 2px solid #a53c50;
-  color: #7f0b20;
+/* line 175, ../scss/main.scss */
+.boost input {
+  top: 42px;
 }
 
 /*road*/
-/* line 178, ../scss/main.scss */
+/* line 180, ../scss/main.scss */
 .road {
   position: relative;
 }
-/* line 180, ../scss/main.scss */
+/* line 182, ../scss/main.scss */
 .road .container {
   position: relative;
   height: 256px;
   z-index: 10;
 }
 
-/* line 186, ../scss/main.scss */
+/* line 188, ../scss/main.scss */
 .curb {
   position: absolute;
   top: 0;
@@ -419,7 +414,7 @@ input, textarea, button {
   background: url(../img/curb.jpg);
 }
 
-/* line 194, ../scss/main.scss */
+/* line 196, ../scss/main.scss */
 .asphalt {
   position: absolute;
   top: 80px;
@@ -429,7 +424,7 @@ input, textarea, button {
   background: url(../img/road.jpg);
 }
 
-/* line 202, ../scss/main.scss */
+/* line 204, ../scss/main.scss */
 .task {
   position: absolute;
   bottom: 0;
@@ -438,7 +433,7 @@ input, textarea, button {
   height: 90px;
   background: url(../img/task.png) no-repeat 0 0;
 }
-/* line 209, ../scss/main.scss */
+/* line 211, ../scss/main.scss */
 .task a {
   position: absolute;
   width: 90px;
@@ -449,77 +444,122 @@ input, textarea, button {
   text-decoration: none;
   color: #3a3a3a;
 }
-/* line 219, ../scss/main.scss */
+/* line 221, ../scss/main.scss */
 .task img {
   margin-bottom: 5px;
   border: 1px solid #787878;
 }
-/* line 223, ../scss/main.scss */
+/* line 225, ../scss/main.scss */
 .task span {
   color: #203698;
 }
-/* line 226, ../scss/main.scss */
+/* line 228, ../scss/main.scss */
 .task .task__1 {
   bottom: -2px;
   left: 170px;
 }
-/* line 235, ../scss/main.scss */
+/* line 232, ../scss/main.scss */
 .task .task__2 {
   bottom: -4px;
   left: 265px;
 }
-/* line 239, ../scss/main.scss */
+/* line 236, ../scss/main.scss */
 .task .task__3 {
   bottom: -6px;
   left: 360px;
 }
 
+/* line 241, ../scss/main.scss */
+.task_inner {
+  bottom: 75px;
+  right: 80px;
+  width: 299px;
+  height: 67px;
+  background: url(../img/task-s.png) no-repeat 0 0;
+  font-size: 5px;
+  z-index: 10;
+}
+/* line 249, ../scss/main.scss */
+.task_inner a {
+  position: absolute;
+  width: 57px;
+  height: 68px;
+  padding: 4px;
+  border: 1px solid #787878;
+  text-decoration: none;
+  color: #3a3a3a;
+}
+/* line 258, ../scss/main.scss */
+.task_inner img {
+  margin-bottom: 5px;
+  border: 1px solid #787878;
+}
+/* line 262, ../scss/main.scss */
+.task_inner span {
+  color: #203698;
+}
+/* line 265, ../scss/main.scss */
+.task_inner .task__1 {
+  bottom: 20px;
+  left: 100px;
+}
+/* line 269, ../scss/main.scss */
+.task_inner .task__2 {
+  bottom: 15px;
+  left: 160px;
+}
+/* line 273, ../scss/main.scss */
+.task_inner .task__3 {
+  bottom: 10px;
+  left: 220px;
+}
+
 /*stop*/
-/* line 245, ../scss/main.scss */
+/* line 279, ../scss/main.scss */
 .stop {
   position: absolute;
-  top: 65px;
+  top: 60px;
   right: 50px;
-  background: #37517b;
-  padding: 12px 20px 12px 58px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
+  background: url(../img/stop-bg.jpg) no-repeat 0 0;
+  border: 2px solid #5c89b5;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 12px 58px 12px 20px;
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
   text-shadow: 0 1px 1px #2a3d60;
 }
-/* line 257, ../scss/main.scss */
+/* line 292, ../scss/main.scss */
 .stop i {
   position: absolute;
   top: 5px;
-  left: 10px;
-  background: url('../img/icons-s47177131ec.png') 0 -219px no-repeat;
+  right: 10px;
+  background: url('../img/icons-s872b03ebd8.png') 0 -219px no-repeat;
   width: 34px;
   height: 32px;
 }
 
 /*speed*/
-/* line 265, ../scss/main.scss */
+/* line 300, ../scss/main.scss */
 .speed {
   position: absolute;
   left: 78px;
-  bottom: 0;
+  bottom: -10px;
   width: 189px;
-  height: 50px;
+  height: 60px;
   padding-top: 190px;
   background: url(../img/speed.png) no-repeat 0 0;
 }
-/* line 273, ../scss/main.scss */
+/* line 308, ../scss/main.scss */
 .speed li {
-  padding-top: 3px;
   overflow: hidden;
 }
-/* line 277, ../scss/main.scss */
+/* line 311, ../scss/main.scss */
 .speed b {
   float: left;
   width: 75px;
@@ -528,39 +568,48 @@ input, textarea, button {
   text-align: right;
 }
 
-/* line 286, ../scss/main.scss */
-.speed__result b {
-  color: #25b8ee;
+/* line 319, ../scss/main.scss */
+.speed__result {
+  padding-top: 4px;
 }
-/* line 289, ../scss/main.scss */
+/* line 321, ../scss/main.scss */
+.speed__result b {
+  padding-top: 2px;
+  color: #6ab0ff;
+}
+/* line 325, ../scss/main.scss */
 .speed__result span {
   font-size: 10px;
-  color: #fefefe;
+  color: #fff;
 }
 
-/* line 295, ../scss/main.scss */
-.speed__point b {
-  color: #e51f69;
+/* line 330, ../scss/main.scss */
+.speed__point {
+  padding-top: 5px;
 }
-/* line 298, ../scss/main.scss */
+/* line 332, ../scss/main.scss */
+.speed__point b {
+  color: #6ab0ff;
+}
+/* line 335, ../scss/main.scss */
 .speed__point span {
   font-size: 13px;
   font-weight: bold;
-  color: #d3ebf2;
+  color: #fff;
 }
 
-/* line 304, ../scss/main.scss */
+/* line 341, ../scss/main.scss */
 .arr {
   position: absolute;
   top: 13px;
   left: 90px;
-  background: url('../img/icons-s47177131ec.png') 0 -261px no-repeat;
-  width: 7px;
+  background: url('../img/icons-s872b03ebd8.png') 0 -261px no-repeat;
+  width: 6px;
   height: 84px;
 }
 
 /*cars default*/
-/* line 311, ../scss/main.scss */
+/* line 348, ../scss/main.scss */
 .car {
   position: absolute;
   top: 37px;
@@ -569,7 +618,7 @@ input, textarea, button {
   height: 135px;
 }
 
-/* line 318, ../scss/main.scss */
+/* line 355, ../scss/main.scss */
 .car__body {
   position: absolute;
   top: 0;
@@ -578,7 +627,7 @@ input, textarea, button {
   height: 115px;
   z-index: 10;
 }
-/* line 325, ../scss/main.scss */
+/* line 362, ../scss/main.scss */
 .car__body i {
   position: absolute;
   bottom: -5px;
@@ -586,11 +635,11 @@ input, textarea, button {
   height: 79px;
 }
 
-/* line 332, ../scss/main.scss */
+/* line 369, ../scss/main.scss */
 .car__shadow {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 1px;
   width: 505px;
   height: 40px;
   background: url(../img/car-shadow.png) no-repeat 0 0;
@@ -598,68 +647,68 @@ input, textarea, button {
 }
 
 /*car start*/
-/* line 343, ../scss/main.scss */
+/* line 380, ../scss/main.scss */
 .car_start .car__body {
-  background: url(../img/car.png) no-repeat 0 0;
+  background: url(../img/car-new.png) no-repeat 0 0;
 }
-/* line 346, ../scss/main.scss */
+/* line 383, ../scss/main.scss */
 .car_start .car__wheel-left {
-  left: 45px;
-  background: url(../img/wheel-l.png) no-repeat 0 0;
+  left: 43px;
+  background: url(../img/wheel-new.png) no-repeat 0 0;
 }
-/* line 350, ../scss/main.scss */
+/* line 387, ../scss/main.scss */
 .car_start .car__wheel-right {
-  right: 80px;
-  background: url(../img/wheel-r.png) no-repeat 0 0;
+  right: 82px;
+  background: url(../img/wheel-new.png) no-repeat 0 0;
 }
 
 /*car run*/
-/* line 357, ../scss/main.scss */
+/* line 394, ../scss/main.scss */
 .car_run .car__body {
   top: 1px;
   background: url(../img/car-run.png) no-repeat 0 0;
 }
-/* line 360, ../scss/main.scss */
+/* line 397, ../scss/main.scss */
 .car_run .car__body i {
   bottom: -4px;
 }
-/* line 364, ../scss/main.scss */
+/* line 401, ../scss/main.scss */
 .car_run .car__wheel-left {
   left: 45px;
   background: url(../img/wheel-l-r.png) no-repeat 0 0;
 }
-/* line 368, ../scss/main.scss */
+/* line 405, ../scss/main.scss */
 .car_run .car__wheel-right {
   right: 86px;
   background: url(../img/wheel-r-r.png) no-repeat 0 0;
 }
 
 /*car split*/
-/* line 375, ../scss/main.scss */
+/* line 412, ../scss/main.scss */
 .car_run-split .car__wheel-left {
   left: 43px;
 }
-/* line 378, ../scss/main.scss */
+/* line 415, ../scss/main.scss */
 .car_run-split .car__wheel-right {
   right: 87px;
 }
 
 /*car save*/
-/* line 384, ../scss/main.scss */
+/* line 421, ../scss/main.scss */
 .car_save .car__body {
   top: 1px;
   background: url(../img/car-save.png) no-repeat 0 0;
 }
-/* line 387, ../scss/main.scss */
+/* line 424, ../scss/main.scss */
 .car_save .car__body i {
   bottom: -3px;
 }
-/* line 391, ../scss/main.scss */
+/* line 428, ../scss/main.scss */
 .car_save .car__wheel-left {
   left: 45px;
   background: url(../img/wheel-l-s.png) no-repeat 0 0;
 }
-/* line 395, ../scss/main.scss */
+/* line 432, ../scss/main.scss */
 .car_save .car__wheel-right {
   right: 80px;
   background: url(../img/wheel-r-s.png) no-repeat 0 0;
@@ -685,11 +734,22 @@ input, textarea, button {
 }
 
 /* line 11, ../scss/inner.scss */
-.container_screen {
-  height: 900px;
+.paper-inner {
+  position: absolute;
+  top: -10;
+  left: -20px;
+  width: 360px;
+  height: 340px;
+  background: url(../img/paper-inner.png) no-repeat 0 0;
+  z-index: 10;
 }
 
-/* line 14, ../scss/inner.scss */
+/* line 20, ../scss/inner.scss */
+.container_screen {
+  height: 910px;
+}
+
+/* line 23, ../scss/inner.scss */
 .feet {
   position: absolute;
   bottom: 0px;
@@ -701,200 +761,302 @@ input, textarea, button {
   z-index: 40;
 }
 
-/* line 24, ../scss/inner.scss */
-.screen-out {
+/* line 33, ../scss/inner.scss */
+.screen {
   position: absolute;
-  top: 164px;
-  left: 223px;
-  width: 757px;
-  height: 518px;
+  top: 106px;
+  left: 165px;
+  width: 890px;
+  height: 620px;
+}
+
+/* line 40, ../scss/inner.scss */
+.screen__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 890px;
+  height: 620px;
   background: url(../img/screen-out.png) no-repeat 0 0;
   z-index: 10;
 }
 
-/* line 33, ../scss/inner.scss */
-.screen-out_bg {
-  background: url(../img/bg2.png) no-repeat 0 0;
-  z-index: 5;
+/* line 49, ../scss/inner.scss */
+.screen__speed {
+  position: absolute;
+  bottom: 95px;
+  left: 105px;
+  width: 125px;
+  height: 125px;
+  background: url(../img/speed-s.png) no-repeat 0 0;
+  z-index: 10;
+}
+/* line 57, ../scss/inner.scss */
+.screen__speed i {
+  position: absolute;
+  top: 8px;
+  left: 60px;
+  background: url('../img/icons-s872b03ebd8.png') 0 -355px no-repeat;
+  width: 4px;
+  height: 54px;
 }
 
-/* line 37, ../scss/inner.scss */
+/* line 64, ../scss/inner.scss */
+.screen__road {
+  position: absolute;
+  left: 65px;
+  right: 78px;
+  bottom: 65px;
+  height: 145px;
+  background: url(../img/road-s.jpg);
+}
+
+/* line 72, ../scss/inner.scss */
+.screen__curb {
+  position: absolute;
+  left: 65px;
+  right: 78px;
+  bottom: 210px;
+  height: 52px;
+  background: url(../img/curb-s.png);
+}
+
+/* line 80, ../scss/inner.scss */
+.screen__car {
+  position: absolute;
+  bottom: 155px;
+  left: 280px;
+  width: 325px;
+  height: 80px;
+  background: url(../img/car-s.png) no-repeat 0 0;
+  z-index: 20;
+}
+/* line 88, ../scss/inner.scss */
+.screen__car span {
+  position: absolute;
+  bottom: 4px;
+  width: 52px;
+  height: 52px;
+  background: url(../img/wheel-s.png) no-repeat 0 0;
+}
+
+/* line 96, ../scss/inner.scss */
+.screen__wheel-l {
+  left: 26px;
+}
+
+/* line 97, ../scss/inner.scss */
+.screen__wheel-r {
+  right: 51px;
+}
+
+/* line 98, ../scss/inner.scss */
+.data-bg {
+  position: absolute;
+  top: 55px;
+  left: 70px;
+  width: 240px;
+  height: 170px;
+  background: url(../img/screen-courner.png) no-repeat 0 0;
+}
+
+/* line 106, ../scss/inner.scss */
 .data {
   position: absolute;
-  top: 35px;
-  left: 50px;
+  top: 55px;
+  left: 70px;
+  width: 210px;
+  height: 150px;
+  padding: 20px 0 0 30px;
+  z-index: 20;
 }
-/* line 41, ../scss/inner.scss */
+/* line 114, ../scss/inner.scss */
 .data li {
   margin-bottom: 2px;
 }
-
-/* line 45, ../scss/inner.scss */
-.data__name {
-  font-size: 19px;
-  color: #fff71a;
-}
-
-/* line 50, ../scss/inner.scss */
-.data__result b {
-  margin-right: 5px;
-  font-size: 14px;
-  color: #25b8ee;
-}
-/* line 55, ../scss/inner.scss */
-.data__result span {
-  font-size: 10px;
+/* line 117, ../scss/inner.scss */
+.data a {
+  font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
+  font-size: 12px;
   color: #fff;
 }
 
-/* line 60, ../scss/inner.scss */
+/* line 123, ../scss/inner.scss */
+.data__name {
+  margin-bottom: 5px;
+  font-size: 19px;
+  color: #6ab0ff;
+}
+
+/* line 128, ../scss/inner.scss */
+.data__result {
+  color: #fff;
+}
+/* line 130, ../scss/inner.scss */
+.data__result b {
+  margin-right: 5px;
+  font-size: 14px;
+}
+/* line 134, ../scss/inner.scss */
+.data__result span {
+  font-size: 10px;
+}
+
+/* line 138, ../scss/inner.scss */
 .data__place {
   font-size: 14px;
   color: #fff;
 }
-/* line 63, ../scss/inner.scss */
+/* line 141, ../scss/inner.scss */
 .data__place span {
   margin-right: 5px;
-  color: #e51f69;
 }
 
-/* line 68, ../scss/inner.scss */
+/* line 145, ../scss/inner.scss */
 .data__map {
-  margin-top: 5px;
-}
-/* line 70, ../scss/inner.scss */
-.data__map a {
-  display: block;
-  width: 165px;
-  height: 61px;
+  position: relative;
+  margin-top: 15px;
+  width: 170px;
+  height: 32px;
   background: url(../img/map.png) no-repeat 0 0;
 }
 
+/* line 152, ../scss/inner.scss */
+.data__road {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 150px;
+  height: 20px;
+  background: url(../img/road.png) no-repeat 0 0;
+  overflow: hidden;
+}
+/* line 160, ../scss/inner.scss */
+.data__road i {
+  position: absolute;
+  top: 4px;
+  left: 64px;
+  background: url('../img/icons-s872b03ebd8.png') 0 -446px no-repeat;
+  width: 18px;
+  height: 15px;
+}
+
 /*codes*/
-/* line 78, ../scss/inner.scss */
+/* line 168, ../scss/inner.scss */
 .codes {
   position: absolute;
   top: 235px;
   left: 30px;
   width: 104px;
   padding: 20px 20px 15px 20px;
-  background: #253d67;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
+  background: #375996;
   color: #fff;
 }
 
-/* line 88, ../scss/inner.scss */
+/* line 177, ../scss/inner.scss */
 .codes__top {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #4e6283;
+  padding: 0 0 10px 10px;
+  border-bottom: 1px solid #5d78aa;
 }
-/* line 91, ../scss/inner.scss */
-.codes__top i, .codes__top span {
-  display: block;
-}
-/* line 94, ../scss/inner.scss */
-.codes__top i {
-  margin-bottom: 5px;
-  font-style: normal;
-  font-size: 10px;
-}
-/* line 99, ../scss/inner.scss */
+/* line 180, ../scss/inner.scss */
 .codes__top span {
-  font-size: 16px;
-  line-height: 1.3;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+/* line 185, ../scss/inner.scss */
+.codes__top b {
+  font-size: 12px;
+  color: #f2242e;
+}
+/* line 189, ../scss/inner.scss */
+.codes__top strong {
+  font-size: 12px;
+  color: #81c1ff;
 }
 
-/* line 104, ../scss/inner.scss */
+/* line 194, ../scss/inner.scss */
 .codes__history {
   position: relative;
   padding: 11px 0 8px 22px;
 }
-/* line 107, ../scss/inner.scss */
+/* line 197, ../scss/inner.scss */
 .codes__history a {
   color: #fff;
   line-height: 1.3;
 }
-/* line 111, ../scss/inner.scss */
+/* line 201, ../scss/inner.scss */
 .codes__history i {
   position: absolute;
   top: 13px;
   left: 1px;
-  background: url('../img/icons-s47177131ec.png') 0 -405px no-repeat;
+  background: url('../img/icons-s872b03ebd8.png') 0 -471px no-repeat;
   width: 16px;
   height: 18px;
 }
 
-/* line 118, ../scss/inner.scss */
+/* line 208, ../scss/inner.scss */
 .codes__scroll {
   width: 112px;
   height: 122px;
   overflow: auto;
 }
-/* line 122, ../scss/inner.scss */
+/* line 212, ../scss/inner.scss */
 .codes__scroll ul {
   width: 90px;
   padding-left: 4px;
 }
-/* line 126, ../scss/inner.scss */
+/* line 216, ../scss/inner.scss */
 .codes__scroll li {
   padding-bottom: 15px;
 }
-/* line 129, ../scss/inner.scss */
+/* line 219, ../scss/inner.scss */
 .codes__scroll b {
   font-size: 11px;
-  color: #ffe400;
+  color: #f2242e;
 }
-/* line 133, ../scss/inner.scss */
+/* line 223, ../scss/inner.scss */
 .codes__scroll span {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 138, ../scss/inner.scss */
+/* line 228, ../scss/inner.scss */
 .codes__scroll b, .codes__scroll span {
   display: block;
   margin-bottom: 2px;
 }
 
 /*photo-group*/
-/* line 144, ../scss/inner.scss */
+/* line 234, ../scss/inner.scss */
 .photo-group {
   position: absolute;
-  top: 515px;
+  top: 500px;
   left: 30px;
-  background: url('../img/icons-s47177131ec.png') 0 0 no-repeat;
+  background: url('../img/icons-s872b03ebd8.png') 0 0 no-repeat;
   width: 150px;
   height: 175px;
 }
 
 /*rate*/
-/* line 151, ../scss/inner.scss */
+/* line 241, ../scss/inner.scss */
 .rate {
   position: absolute;
   right: 10px;
-  bottom: 218px;
+  bottom: 280px;
   width: 155px;
   padding: 20px 15px 30px 15px;
-  background: #355493;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
+  background: #375996;
 }
-/* line 159, ../scss/inner.scss */
+/* line 248, ../scss/inner.scss */
 .rate .h1 {
   margin-bottom: 10px;
 }
-/* line 162, ../scss/inner.scss */
+/* line 251, ../scss/inner.scss */
 .rate ul {
   margin-bottom: 15px;
 }
-/* line 165, ../scss/inner.scss */
+/* line 254, ../scss/inner.scss */
 .rate li {
   height: 22px;
   border-top: 1px solid #5372b1;
@@ -902,30 +1064,31 @@ input, textarea, button {
   overflow: hidden;
   color: #fff;
 }
-/* line 171, ../scss/inner.scss */
+/* line 260, ../scss/inner.scss */
 .rate li span {
   float: left;
   width: 115px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: #7cbaff;
 }
-/* line 178, ../scss/inner.scss */
+/* line 268, ../scss/inner.scss */
 .rate li b {
   float: right;
   font-weight: normal;
 }
 
-/* line 184, ../scss/inner.scss */
+/* line 274, ../scss/inner.scss */
 .rate__result-title {
   margin-bottom: 7px;
   font-size: 11px;
-  color: #ffc600;
+  color: #e73355;
   font-weight: bold;
   text-align: center;
 }
 
-/* line 191, ../scss/inner.scss */
+/* line 281, ../scss/inner.scss */
 .rate__result {
   margin: 0 -15px 15px -15px;
   height: 29px;
@@ -933,45 +1096,47 @@ input, textarea, button {
   background: #60779f;
   text-align: center;
   font-size: 11px;
-  color: #f4fc0c;
+  color: #fff;
   font-weight: bold;
 }
-/* line 200, ../scss/inner.scss */
+/* line 290, ../scss/inner.scss */
 .rate__result a {
-  margin-left: 5px;
-  color: #f4fc0c;
-}
-/* line 204, ../scss/inner.scss */
-.rate__result span {
   margin-left: 5px;
   color: #fff;
 }
+/* line 294, ../scss/inner.scss */
+.rate__result span {
+  margin-left: 5px;
+  color: #173f7a;
+}
 
-/* line 209, ../scss/inner.scss */
+/* line 299, ../scss/inner.scss */
 .rate__search {
   padding-left: 12px;
   margin-right: -20px;
   overflow: hidden;
 }
-/* line 213, ../scss/inner.scss */
+/* line 303, ../scss/inner.scss */
 .rate__search .h2 {
   margin-bottom: 5px;
 }
-/* line 216, ../scss/inner.scss */
+/* line 306, ../scss/inner.scss */
 .rate__search input {
   float: left;
 }
 
-/* line 220, ../scss/inner.scss */
+/* line 310, ../scss/inner.scss */
 .rate__search-txt {
-  width: 115px;
-  height: 22px;
+  width: 114px;
+  height: 21px;
   margin-right: 5px;
   padding-left: 5px;
-  line-height: 22px;
+  line-height: 21px;
+  border-left: 1px solid #545454;
+  border-top: 1px solid #7f7f7f;
 }
 
-/* line 227, ../scss/inner.scss */
+/* line 319, ../scss/inner.scss */
 .rate__search-btn {
   width: 22px;
   height: 22px;
@@ -989,18 +1154,18 @@ input, textarea, button {
 }
 
 /*scroll*/
-/* line 240, ../scss/inner.scss */
+/* line 332, ../scss/inner.scss */
 .jspContainer {
   overflow: hidden;
   position: relative;
 }
 
-/* line 245, ../scss/inner.scss */
+/* line 337, ../scss/inner.scss */
 .jspPane {
   position: absolute;
 }
 
-/* line 249, ../scss/inner.scss */
+/* line 341, ../scss/inner.scss */
 .jspVerticalBar {
   position: absolute;
   top: 0;
@@ -1009,12 +1174,12 @@ input, textarea, button {
   height: 100%;
 }
 
-/* line 257, ../scss/inner.scss */
+/* line 349, ../scss/inner.scss */
 .jspCap {
   display: none;
 }
 
-/* line 261, ../scss/inner.scss */
+/* line 353, ../scss/inner.scss */
 .jspTrack {
   width: 3px;
   right: -4px;
@@ -1022,19 +1187,19 @@ input, textarea, button {
   position: relative;
 }
 
-/* line 268, ../scss/inner.scss */
+/* line 360, ../scss/inner.scss */
 .jspDrag {
   background: #bbd;
   position: relative;
   top: 0;
   left: -4px;
   cursor: pointer;
-  background: url('../img/icons-s47177131ec.png') 0 -355px no-repeat;
+  background: url('../img/icons-s872b03ebd8.png') 0 -499px no-repeat;
   width: 11px;
   height: 11px;
 }
 
-/* line 277, ../scss/inner.scss */
+/* line 369, ../scss/inner.scss */
 .jspArrow {
   background: #50506d;
   text-indent: -20000px;
@@ -1042,23 +1207,23 @@ input, textarea, button {
   cursor: pointer;
 }
 
-/* line 284, ../scss/inner.scss */
+/* line 376, ../scss/inner.scss */
 .jspArrow.jspDisabled {
   cursor: default;
   background: #80808d;
 }
 
-/* line 289, ../scss/inner.scss */
+/* line 381, ../scss/inner.scss */
 .jspVerticalBar .jspArrow {
   height: 16px;
 }
 
-/* line 293, ../scss/inner.scss */
+/* line 385, ../scss/inner.scss */
 .jspVerticalBar .jspArrow:focus {
   outline: none;
 }
 
-/* line 297, ../scss/inner.scss */
+/* line 389, ../scss/inner.scss */
 .jspCorner {
   background: #eeeef4;
   float: left;
@@ -1066,7 +1231,7 @@ input, textarea, button {
 }
 
 /* Yuk! CSS Hack for IE6 3 pixel bug :( */
-/* line 305, ../scss/inner.scss */
+/* line 397, ../scss/inner.scss */
 * html .jspCorner {
   margin: 0 -3px 0 0;
 }

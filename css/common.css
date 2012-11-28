@@ -20,7 +20,7 @@ body {
   font-weight: normal;
   font-size: 9px;
   line-height: 1;
-  background: url(../img/bg.jpg) no-repeat 50% 0 #001856;
+  background: url(../img/bg-1.jpg) no-repeat 50% 0 #001856;
 }
 
 /* line 14, ../scss/common.scss */
@@ -55,7 +55,7 @@ input, textarea, button {
 
 /* line 34, ../scss/common.scss */
 .body_inner {
-  background: url(../img/bg1.jpg) no-repeat 50% 0 #001856;
+  background: url(../img/bg1.jpg) no-repeat 50% -10px #001856;
 }
 
 /* line 37, ../scss/common.scss */
@@ -79,38 +79,39 @@ input, textarea, button {
 /* line 51, ../scss/common.scss */
 .nav {
   position: absolute;
-  top: 65px;
+  top: 60px;
   left: 50%;
   margin-left: -180px;
-  padding: 10px 20px;
-  background: #3c5dab;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-  border-radius: 15px;
+  padding: 12px 14px;
+  border: 2px solid #5c89b5;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  background: url(../img/nav-bg.jpg) no-repeat 0 0;
 }
-/* line 59, ../scss/common.scss */
+/* line 60, ../scss/common.scss */
 .nav li {
   float: left;
 }
-/* line 62, ../scss/common.scss */
+/* line 63, ../scss/common.scss */
 .nav a {
   font-size: 10px;
   color: #fff;
 }
-/* line 65, ../scss/common.scss */
+/* line 66, ../scss/common.scss */
 .nav a:hover {
   color: #fffc1b;
 }
-/* line 69, ../scss/common.scss */
+/* line 70, ../scss/common.scss */
 .nav span {
   margin: 0 15px;
-  color: #8498c8;
+  color: #fff;
 }
 
 /*footer*/
-/* line 75, ../scss/common.scss */
+/* line 76, ../scss/common.scss */
 .footer {
   position: relative;
   width: 100%;
@@ -119,29 +120,29 @@ input, textarea, button {
   border-top: 1px solid #000;
   z-index: 50;
 }
-/* line 82, ../scss/common.scss */
+/* line 83, ../scss/common.scss */
 .footer ul {
   margin-left: 118px;
   height: 20px;
   line-height: 20px;
 }
-/* line 87, ../scss/common.scss */
+/* line 88, ../scss/common.scss */
 .footer li {
   float: left;
   text-transform: uppercase;
   color: #fff;
   font-size: 10px;
 }
-/* line 93, ../scss/common.scss */
+/* line 94, ../scss/common.scss */
 .footer a {
   color: #fff;
 }
-/* line 96, ../scss/common.scss */
+/* line 97, ../scss/common.scss */
 .footer span {
   margin: 0 5px;
 }
 
-/* line 100, ../scss/common.scss */
+/* line 101, ../scss/common.scss */
 .footer__title {
   border-bottom: 3px solid #d2d2d2;
   background: #fff;

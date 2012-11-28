@@ -9,7 +9,7 @@ body{
     size: 9px;
   }
   line-height: 1; 
-  background: url(../img/bg.jpg) no-repeat 50% 0 $blue; 
+  background: url(../img/bg-1.jpg) no-repeat 50% 0 $blue; 
 }
 a img, fieldset {
 	border: none;
@@ -32,7 +32,7 @@ input, textarea, button {
 	color: #fff;
 }
 .body_inner {
-	background: url(../img/bg1.jpg) no-repeat 50% 0 $blue; 
+	background: url(../img/bg1.jpg) no-repeat 50% -10px $blue; 
 }
 .clr {
 	clear: both;
@@ -50,12 +50,13 @@ input, textarea, button {
 /*nav*/
 .nav {
 	position: absolute;
-	top: 65px;
+	top: 60px;
 	left: 50%;
 	margin-left: -180px;
-	padding: 10px 20px;
-	background: #3c5dab;
-	@include border-radius(15px);
+	padding: 12px 14px;
+	border: 2px solid #5c89b5;
+	@include border-radius(2px);
+	background: url(../img/nav-bg.jpg) no-repeat 0 0;
 	li {
 		float: left;
 	}
@@ -68,7 +69,7 @@ input, textarea, button {
 	}
 	span {
 		margin: 0 15px;
-		color: #8498c8;
+		color: #fff;
 	}
 }
 /*footer*/

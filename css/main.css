@@ -19,10 +19,10 @@
 /* line 10, ../scss/main.scss */
 .paper {
   position: absolute;
-  top: -40px;
-  left: 30px;
-  width: 235px;
-  height: 225px;
+  top: -70px;
+  left: -90px;
+  width: 395px;
+  height: 285px;
   background: url(../img/paper.png) no-repeat 0 0;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
@@ -34,90 +34,88 @@
 /* line 23, ../scss/main.scss */
 .paper a {
   position: absolute;
-  right: 12px;
-  bottom: 10px;
-  width: 110px;
-  height: 20px;
+  right: 180px;
+  bottom: 20px;
+  font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
+  font-size: 12px;
+  color: #ed1c24;
 }
 
-/* line 31, ../scss/main.scss */
+/* line 32, ../scss/main.scss */
 .paper__map {
   position: absolute;
-  top: 143px;
-  left: 17px;
+  top: 206px;
+  left: 121px;
   width: 200px;
-  height: 45px;
+  height: 30px;
   overflow: hidden;
 }
 
-/* line 39, ../scss/main.scss */
+/* line 40, ../scss/main.scss */
 .paper__way {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 200px;
-  height: 45px;
+  left: 5px;
+  width: 190px;
+  height: 30px;
   background: url(../img/way.png) no-repeat 0 0;
   z-index: 5;
 }
 
-/* line 48, ../scss/main.scss */
+/* line 49, ../scss/main.scss */
 .paper__racer {
   position: absolute;
-  top: 10px;
+  top: 12px;
   left: 80px;
-  background: url('../img/icons-s47177131ec.png') 0 -376px no-repeat;
-  width: 22px;
-  height: 19px;
+  background: url('../img/icons-s872b03ebd8.png') 0 -419px no-repeat;
+  width: 23px;
+  height: 17px;
   z-index: 10;
 }
 
 /*tank*/
-/* line 56, ../scss/main.scss */
+/* line 57, ../scss/main.scss */
 .tank {
   position: absolute;
-  top: 170px;
+  top: 160px;
   right: 40px;
-  width: 101px;
-  height: 386px;
+  width: 98px;
+  height: 410px;
   background: url(../img/tank.png) no-repeat 0 0;
 }
 
-/* line 64, ../scss/main.scss */
+/* line 65, ../scss/main.scss */
 .tank__code {
   position: absolute;
-  bottom: 29px;
-  left: 32px;
-  color: #fff;
+  bottom: 19px;
+  left: 17px;
+  color: #000;
 }
-/* line 69, ../scss/main.scss */
+/* line 70, ../scss/main.scss */
 .tank__code li {
   line-height: 1.3;
 }
-/* line 72, ../scss/main.scss */
-.tank__code span {
-  color: #3de9e8;
+/* line 73, ../scss/main.scss */
+.tank__code b {
+  font-size: 12px;
+  color: #ff0000;
 }
-/* line 75, ../scss/main.scss */
-.tank__code .tank__code-last {
-  margin-left: 7px;
-}
-/* line 77, ../scss/main.scss */
-.tank__code .tank__code-last span {
-  color: #f1d59f;
+/* line 78, ../scss/main.scss */
+.tank__code .tank__code-last b {
+  color: #6ab0ff;
 }
 
-/* line 82, ../scss/main.scss */
+/* line 83, ../scss/main.scss */
 .tank__circle {
   position: absolute;
-  right: 21px;
+  right: 20px;
   bottom: 18px;
   font-size: 14px;
-  color: #ff6c00;
+  color: #ff0000;
   font-weight: bold;
 }
 
-/* line 90, ../scss/main.scss */
+/* line 91, ../scss/main.scss */
 .tank__boost {
   position: absolute;
   bottom: -65px;
@@ -125,61 +123,65 @@
   color: #fff;
   text-align: right;
 }
-/* line 96, ../scss/main.scss */
+/* line 97, ../scss/main.scss */
 .tank__boost b {
-  position: relative;
-  padding-right: 45px;
   font-size: 28px;
 }
 /* line 100, ../scss/main.scss */
-.tank__boost b i {
-  position: absolute;
-  top: 5px;
-  right: 0;
-  background: url('../img/icons-s47177131ec.png') 0 -185px no-repeat;
-  width: 42px;
-  height: 24px;
+.tank__boost span {
+  position: relative;
+  padding-left: 16px;
+  text-decoration: underline;
+  font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
+  color: #fff;
 }
 /* line 107, ../scss/main.scss */
+.tank__boost i {
+  position: absolute;
+  top: 13px;
+  left: 4px;
+  background: url('../img/icons-s872b03ebd8.png') 0 -520px no-repeat;
+  width: 7px;
+  height: 13px;
+}
+/* line 113, ../scss/main.scss */
 .tank__boost a {
   color: #fff;
 }
-/* line 110, ../scss/main.scss */
+/* line 116, ../scss/main.scss */
 .tank__boost p {
   line-height: 1.3;
 }
 
-/* line 114, ../scss/main.scss */
+/* line 120, ../scss/main.scss */
 .tank__full, .tank__use {
   position: absolute;
-  bottom: 88px;
-  right: 19px;
+  bottom: 86px;
+  right: 15px;
   width: 65px;
-  height: 277px;
+  height: 314px;
 }
 
-/* line 121, ../scss/main.scss */
+/* line 127, ../scss/main.scss */
 .tank__full {
   background: url(../img/tank-full.png) no-repeat 0 100%;
 }
 
-/* line 124, ../scss/main.scss */
+/* line 130, ../scss/main.scss */
 .tank__use {
   background: url(../img/tank-use.png) no-repeat 0 100%;
 }
 
-/* line 127, ../scss/main.scss */
+/* line 133, ../scss/main.scss */
 .tank-fill, .boost {
   position: absolute;
   left: 50%;
-  width: 130px;
-  height: 120px;
-  margin-left: -60px;
+  width: 140px;
+  margin-left: -70px;
 }
-/* line 133, ../scss/main.scss */
+/* line 138, ../scss/main.scss */
 .tank-fill input, .boost input {
   position: absolute;
-  top: 45px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -188,70 +190,62 @@
   background: #fff;
   text-align: center;
 }
-/* line 140, ../scss/main.scss */
+/* line 144, ../scss/main.scss */
 .tank-fill .tank-fill__code, .tank-fill .boost__code, .boost .tank-fill__code, .boost .boost__code {
-  left: 15px;
+  left: 21px;
   width: 74px;
   height: 19px;
   line-height: 19px;
   font-size: 9px;
+  color: #abbee7;
 }
-/* line 147, ../scss/main.scss */
+/* line 152, ../scss/main.scss */
 .tank-fill .tank-fill__btn, .tank-fill .boost__btn, .boost .tank-fill__btn, .boost .boost__btn {
-  right: 16px;
+  right: 18px;
   width: 19px;
   height: 19px;
+  border: 2px solid #6f96de;
+  color: #003ab5;
   font-size: 7px;
   cursor: pointer;
 }
 
-/* line 155, ../scss/main.scss */
+/* line 162, ../scss/main.scss */
 .tank-fill {
   top: 370px;
+  height: 75px;
   background: url(../img/tank-fill.png) no-repeat 0 0;
 }
-
-/* line 159, ../scss/main.scss */
-.tank-fill__code {
-  color: #abbee7;
-}
-
-/* line 162, ../scss/main.scss */
-.tank-fill__btn {
-  border: 2px solid #0b1c70;
-  color: #003ab5;
-}
-
 /* line 166, ../scss/main.scss */
-.boost {
-  top: 150px;
-  background: url(../img/boost.png) no-repeat 0 0;
+.tank-fill input {
+  top: 32px;
 }
 
 /* line 170, ../scss/main.scss */
-.boost__code {
-  color: #d5afb6;
+.boost {
+  top: 245px;
+  height: 85px;
+  background: url(../img/boost.png) no-repeat 0 0;
+  z-index: 20;
 }
-
-/* line 173, ../scss/main.scss */
-.boost__btn {
-  border: 2px solid #a53c50;
-  color: #7f0b20;
+/* line 175, ../scss/main.scss */
+.boost input {
+  top: 42px;
 }
 
 /*road*/
-/* line 178, ../scss/main.scss */
+/* line 180, ../scss/main.scss */
 .road {
   position: relative;
 }
-/* line 180, ../scss/main.scss */
+/* line 182, ../scss/main.scss */
 .road .container {
   position: relative;
   height: 256px;
   z-index: 10;
 }
 
-/* line 186, ../scss/main.scss */
+/* line 188, ../scss/main.scss */
 .curb {
   position: absolute;
   top: 0;
@@ -261,7 +255,7 @@
   background: url(../img/curb.jpg);
 }
 
-/* line 194, ../scss/main.scss */
+/* line 196, ../scss/main.scss */
 .asphalt {
   position: absolute;
   top: 80px;
@@ -271,7 +265,7 @@
   background: url(../img/road.jpg);
 }
 
-/* line 202, ../scss/main.scss */
+/* line 204, ../scss/main.scss */
 .task {
   position: absolute;
   bottom: 0;
@@ -280,7 +274,7 @@
   height: 90px;
   background: url(../img/task.png) no-repeat 0 0;
 }
-/* line 209, ../scss/main.scss */
+/* line 211, ../scss/main.scss */
 .task a {
   position: absolute;
   width: 90px;
@@ -291,77 +285,122 @@
   text-decoration: none;
   color: #3a3a3a;
 }
-/* line 219, ../scss/main.scss */
+/* line 221, ../scss/main.scss */
 .task img {
   margin-bottom: 5px;
   border: 1px solid #787878;
 }
-/* line 223, ../scss/main.scss */
+/* line 225, ../scss/main.scss */
 .task span {
   color: #203698;
 }
-/* line 226, ../scss/main.scss */
+/* line 228, ../scss/main.scss */
 .task .task__1 {
   bottom: -2px;
   left: 170px;
 }
-/* line 235, ../scss/main.scss */
+/* line 232, ../scss/main.scss */
 .task .task__2 {
   bottom: -4px;
   left: 265px;
 }
-/* line 239, ../scss/main.scss */
+/* line 236, ../scss/main.scss */
 .task .task__3 {
   bottom: -6px;
   left: 360px;
 }
 
+/* line 241, ../scss/main.scss */
+.task_inner {
+  bottom: 75px;
+  right: 80px;
+  width: 299px;
+  height: 67px;
+  background: url(../img/task-s.png) no-repeat 0 0;
+  font-size: 5px;
+  z-index: 10;
+}
+/* line 249, ../scss/main.scss */
+.task_inner a {
+  position: absolute;
+  width: 57px;
+  height: 68px;
+  padding: 4px;
+  border: 1px solid #787878;
+  text-decoration: none;
+  color: #3a3a3a;
+}
+/* line 258, ../scss/main.scss */
+.task_inner img {
+  margin-bottom: 5px;
+  border: 1px solid #787878;
+}
+/* line 262, ../scss/main.scss */
+.task_inner span {
+  color: #203698;
+}
+/* line 265, ../scss/main.scss */
+.task_inner .task__1 {
+  bottom: 20px;
+  left: 100px;
+}
+/* line 269, ../scss/main.scss */
+.task_inner .task__2 {
+  bottom: 15px;
+  left: 160px;
+}
+/* line 273, ../scss/main.scss */
+.task_inner .task__3 {
+  bottom: 10px;
+  left: 220px;
+}
+
 /*stop*/
-/* line 245, ../scss/main.scss */
+/* line 279, ../scss/main.scss */
 .stop {
   position: absolute;
-  top: 65px;
+  top: 60px;
   right: 50px;
-  background: #37517b;
-  padding: 12px 20px 12px 58px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
+  background: url(../img/stop-bg.jpg) no-repeat 0 0;
+  border: 2px solid #5c89b5;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 12px 58px 12px 20px;
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
   text-shadow: 0 1px 1px #2a3d60;
 }
-/* line 257, ../scss/main.scss */
+/* line 292, ../scss/main.scss */
 .stop i {
   position: absolute;
   top: 5px;
-  left: 10px;
-  background: url('../img/icons-s47177131ec.png') 0 -219px no-repeat;
+  right: 10px;
+  background: url('../img/icons-s872b03ebd8.png') 0 -219px no-repeat;
   width: 34px;
   height: 32px;
 }
 
 /*speed*/
-/* line 265, ../scss/main.scss */
+/* line 300, ../scss/main.scss */
 .speed {
   position: absolute;
   left: 78px;
-  bottom: 0;
+  bottom: -10px;
   width: 189px;
-  height: 50px;
+  height: 60px;
   padding-top: 190px;
   background: url(../img/speed.png) no-repeat 0 0;
 }
-/* line 273, ../scss/main.scss */
+/* line 308, ../scss/main.scss */
 .speed li {
-  padding-top: 3px;
   overflow: hidden;
 }
-/* line 277, ../scss/main.scss */
+/* line 311, ../scss/main.scss */
 .speed b {
   float: left;
   width: 75px;
@@ -370,39 +409,48 @@
   text-align: right;
 }
 
-/* line 286, ../scss/main.scss */
-.speed__result b {
-  color: #25b8ee;
+/* line 319, ../scss/main.scss */
+.speed__result {
+  padding-top: 4px;
 }
-/* line 289, ../scss/main.scss */
+/* line 321, ../scss/main.scss */
+.speed__result b {
+  padding-top: 2px;
+  color: #6ab0ff;
+}
+/* line 325, ../scss/main.scss */
 .speed__result span {
   font-size: 10px;
-  color: #fefefe;
+  color: #fff;
 }
 
-/* line 295, ../scss/main.scss */
-.speed__point b {
-  color: #e51f69;
+/* line 330, ../scss/main.scss */
+.speed__point {
+  padding-top: 5px;
 }
-/* line 298, ../scss/main.scss */
+/* line 332, ../scss/main.scss */
+.speed__point b {
+  color: #6ab0ff;
+}
+/* line 335, ../scss/main.scss */
 .speed__point span {
   font-size: 13px;
   font-weight: bold;
-  color: #d3ebf2;
+  color: #fff;
 }
 
-/* line 304, ../scss/main.scss */
+/* line 341, ../scss/main.scss */
 .arr {
   position: absolute;
   top: 13px;
   left: 90px;
-  background: url('../img/icons-s47177131ec.png') 0 -261px no-repeat;
-  width: 7px;
+  background: url('../img/icons-s872b03ebd8.png') 0 -261px no-repeat;
+  width: 6px;
   height: 84px;
 }
 
 /*cars default*/
-/* line 311, ../scss/main.scss */
+/* line 348, ../scss/main.scss */
 .car {
   position: absolute;
   top: 37px;
@@ -411,7 +459,7 @@
   height: 135px;
 }
 
-/* line 318, ../scss/main.scss */
+/* line 355, ../scss/main.scss */
 .car__body {
   position: absolute;
   top: 0;
@@ -420,7 +468,7 @@
   height: 115px;
   z-index: 10;
 }
-/* line 325, ../scss/main.scss */
+/* line 362, ../scss/main.scss */
 .car__body i {
   position: absolute;
   bottom: -5px;
@@ -428,11 +476,11 @@
   height: 79px;
 }
 
-/* line 332, ../scss/main.scss */
+/* line 369, ../scss/main.scss */
 .car__shadow {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 1px;
   width: 505px;
   height: 40px;
   background: url(../img/car-shadow.png) no-repeat 0 0;
@@ -440,68 +488,68 @@
 }
 
 /*car start*/
-/* line 343, ../scss/main.scss */
+/* line 380, ../scss/main.scss */
 .car_start .car__body {
-  background: url(../img/car.png) no-repeat 0 0;
+  background: url(../img/car-new.png) no-repeat 0 0;
 }
-/* line 346, ../scss/main.scss */
+/* line 383, ../scss/main.scss */
 .car_start .car__wheel-left {
-  left: 45px;
-  background: url(../img/wheel-l.png) no-repeat 0 0;
+  left: 43px;
+  background: url(../img/wheel-new.png) no-repeat 0 0;
 }
-/* line 350, ../scss/main.scss */
+/* line 387, ../scss/main.scss */
 .car_start .car__wheel-right {
-  right: 80px;
-  background: url(../img/wheel-r.png) no-repeat 0 0;
+  right: 82px;
+  background: url(../img/wheel-new.png) no-repeat 0 0;
 }
 
 /*car run*/
-/* line 357, ../scss/main.scss */
+/* line 394, ../scss/main.scss */
 .car_run .car__body {
   top: 1px;
   background: url(../img/car-run.png) no-repeat 0 0;
 }
-/* line 360, ../scss/main.scss */
+/* line 397, ../scss/main.scss */
 .car_run .car__body i {
   bottom: -4px;
 }
-/* line 364, ../scss/main.scss */
+/* line 401, ../scss/main.scss */
 .car_run .car__wheel-left {
   left: 45px;
   background: url(../img/wheel-l-r.png) no-repeat 0 0;
 }
-/* line 368, ../scss/main.scss */
+/* line 405, ../scss/main.scss */
 .car_run .car__wheel-right {
   right: 86px;
   background: url(../img/wheel-r-r.png) no-repeat 0 0;
 }
 
 /*car split*/
-/* line 375, ../scss/main.scss */
+/* line 412, ../scss/main.scss */
 .car_run-split .car__wheel-left {
   left: 43px;
 }
-/* line 378, ../scss/main.scss */
+/* line 415, ../scss/main.scss */
 .car_run-split .car__wheel-right {
   right: 87px;
 }
 
 /*car save*/
-/* line 384, ../scss/main.scss */
+/* line 421, ../scss/main.scss */
 .car_save .car__body {
   top: 1px;
   background: url(../img/car-save.png) no-repeat 0 0;
 }
-/* line 387, ../scss/main.scss */
+/* line 424, ../scss/main.scss */
 .car_save .car__body i {
   bottom: -3px;
 }
-/* line 391, ../scss/main.scss */
+/* line 428, ../scss/main.scss */
 .car_save .car__wheel-left {
   left: 45px;
   background: url(../img/wheel-l-s.png) no-repeat 0 0;
 }
-/* line 395, ../scss/main.scss */
+/* line 432, ../scss/main.scss */
 .car_save .car__wheel-right {
   right: 80px;
   background: url(../img/wheel-r-s.png) no-repeat 0 0;
