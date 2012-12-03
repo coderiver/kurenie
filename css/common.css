@@ -20,45 +20,39 @@ body {
   font-weight: normal;
   font-size: 9px;
   line-height: 1;
-  background: url(../img/bg-1.jpg) no-repeat 50% 0 #001856;
 }
 
-/* line 14, ../scss/common.scss */
+/* line 13, ../scss/common.scss */
 a img, fieldset {
   border: none;
 }
 
-/* line 17, ../scss/common.scss */
+/* line 16, ../scss/common.scss */
 li {
   list-style: none;
 }
 
-/* line 20, ../scss/common.scss */
+/* line 19, ../scss/common.scss */
 input, textarea, button {
   border: none;
   outline: none;
 }
 
-/* line 24, ../scss/common.scss */
+/* line 23, ../scss/common.scss */
 .h1 {
   font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
   font-size: 18px;
   color: #fff;
 }
 
-/* line 29, ../scss/common.scss */
+/* line 28, ../scss/common.scss */
 .h2 {
   font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
   font-size: 16px;
   color: #fff;
 }
 
-/* line 34, ../scss/common.scss */
-.body_inner {
-  background: url(../img/bg1.jpg) no-repeat 50% -10px #001856;
-}
-
-/* line 37, ../scss/common.scss */
+/* line 33, ../scss/common.scss */
 .clr {
   clear: both;
   height: 1px;
@@ -67,12 +61,18 @@ input, textarea, button {
 }
 
 /*general styles*/
-/* line 44, ../scss/common.scss */
+/* line 40, ../scss/common.scss */
 .container {
   position: relative;
-  width: 1200px;
-  min-width: 996px;
+  width: 996px;
   margin: 0 auto;
+}
+
+/* line 45, ../scss/common.scss */
+.wrap {
+  overflow: hidden;
+  min-width: 996px;
+  background: url(../img/bg-1.jpg) no-repeat 50% 0 #001856;
 }
 
 /*nav*/

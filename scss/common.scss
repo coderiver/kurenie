@@ -8,8 +8,7 @@ body{
     weight: normal;
     size: 9px;
   }
-  line-height: 1; 
-  background: url(../img/bg-1.jpg) no-repeat 50% 0 $blue; 
+  line-height: 1;   
 }
 a img, fieldset {
 	border: none;
@@ -31,9 +30,6 @@ input, textarea, button {
 	font-size: 16px;
 	color: #fff;
 }
-.body_inner {
-	background: url(../img/bg1.jpg) no-repeat 50% -10px $blue; 
-}
 .clr {
 	clear: both;
 	height: 1px;
@@ -43,9 +39,13 @@ input, textarea, button {
 /*general styles*/
 .container {
 	position: relative;
-	width: 1200px;
-	min-width: 996px;
+	width: 996px;
 	margin: 0 auto;
+}
+.wrap {
+	overflow: hidden;
+	min-width: 996px;
+	background: url(../img/bg-1.jpg) no-repeat 50% 0 $blue; 
 }
 /*nav*/
 .nav {

@@ -1,8 +1,9 @@
 @import "compass/css3";
 @import "base";
 /*screen-out*/
-.wrap {
+.wrap_inner {
 	position: relative;	
+	background: url(../img/bg1.jpg) no-repeat 50% -10px $blue; 
 	.footer {
 		position: absolute;
 		bottom: 0;
@@ -11,7 +12,7 @@
 .paper-inner {
 	position: absolute;
 	top: -10;
-	left: -20px;
+	left: -120px;
 	width: 360px;
 	height: 340px;
 	background: url(../img/paper-inner.png) no-repeat 0 0;
@@ -33,7 +34,7 @@
 .screen {
 	position: absolute;
 	top: 106px;
-	left: 165px;
+	left: 65px;
 	width: 890px;
 	height: 620px;	
 } 
@@ -168,7 +169,7 @@
 .codes {
 	position: absolute;
 	top: 235px;
-	left: 30px;
+	left: -70px;
 	width: 104px;
 	padding: 20px 20px 15px 20px;
 	background: #375996;
@@ -234,13 +235,13 @@
 .photo-group {
 	position: absolute;
 	top: 500px;
-	left: 30px;
+	left: -70px;
 	@include sized-sprite($icons, photo);
 }
 /*rate*/
 .rate {
 	position: absolute;
-	right: 10px;
+	right: -90px;
 	bottom: 280px;
 	width: 155px;
 	padding: 20px 15px 30px 15px;

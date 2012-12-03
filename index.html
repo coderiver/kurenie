@@ -10,88 +10,92 @@
 	<script src="js/common.js"></script>
 </head>
 <body>
-<!-- BEGIN .main -->
-<div class="main">
-	<div class="container">
-		<div class="paper">
-			<div class="paper__map">
-				<div class="paper__racer"></div>
-				<div class="paper__way"></div>
+<!-- BEGIN .out -->
+<div class="wrap">
+	<!-- BEGIN .main -->
+	<div class="main">
+		<div class="container">
+			<div class="paper">
+				<div class="paper__map">
+					<div class="paper__racer"></div>
+					<div class="paper__way"></div>
+				</div>
+				<a href="#">Посмотреть карту</a>
 			</div>
-			<a href="#">Посмотреть карту</a>
-		</div>
-		<a href="#" class="stop">
-			<span>Оставить гонку<br>и стать фанатом<i></i></span>
-		</a>
-		<ul class="nav">
-			<li><a href="#">РАССКАЗАТЬ ДРУЗЬЯМ</a><span>|</span></li>
-			<li><a href="#">ЛИЧНЫЙ КАБИНЕТ</a><span>|</span></li>
-			<li><a href="#">ВЫХОД</a></li>
-		</ul>
-		<div class="tank">
-			<div class="tank__full" style="height: 100px"></div>
-			<div class="tank__use" style="height: 50px"></div>
-			<ul class="tank__code">
-				<li>Активировано</li>
-				<li><b>35</b> кодов</li>
-				<li class="tank__code-last">из <b>35</b></span></li>
+			<a href="#" class="stop">
+				<span>Оставить гонку<br>и стать фанатом<i></i></span>
+			</a>
+			<ul class="nav">
+				<li><a href="#">РАССКАЗАТЬ ДРУЗЬЯМ</a><span>|</span></li>
+				<li><a href="#">ЛИЧНЫЙ КАБИНЕТ</a><span>|</span></li>
+				<li><a href="#">ВЫХОД</a></li>
 			</ul>
-			<div class="tank__circle">?</div>
-			<div class="tank__boost">
-				<b>+2<span>ТУРБО<i></i></span></b>
-				<p>последнее ускорение<br>от <a href="#">Sasha Sopenko</a></p>
+			<div class="tank">
+				<div class="tank__full" style="height: 100px"></div>
+				<div class="tank__use" style="height: 50px"></div>
+				<ul class="tank__code">
+					<li>Активировано</li>
+					<li><b>35</b> кодов</li>
+					<li class="tank__code-last">из <b>35</b></span></li>
+				</ul>
+				<div class="tank__circle">?</div>
+				<div class="tank__boost">
+					<b>+2<span>ТУРБО<i></i></span></b>
+					<p>последнее ускорение<br>от <a href="#">Sasha Sopenko</a></p>
+				</div>
 			</div>
+			<form class="tank-fill">
+				<input class="tank-fill__code" type="text" value="введите код">
+				<input class="tank-fill__btn" type="submit" value="OK">
+			</form>
 		</div>
-		<form class="tank-fill">
-			<input class="tank-fill__code" type="text" value="введите код">
-			<input class="tank-fill__btn" type="submit" value="OK">
-		</form>
 	</div>
-</div>
-<!-- END .main -->
-<!-- BEGIN .road -->
-<div class="road">
-	<div class="container">
-		<div class="speed">
-			<div class="arr"></div>
+	<!-- END .main -->
+	<!-- BEGIN .road -->
+	<div class="road">
+		<div class="container">
+			<div class="speed">
+				<div class="arr"></div>
+				<ul>
+					<li class="speed__result"><b>5:45</b><span>результат последнего дня</span></li>
+					<li class="speed__point"><b>12479</b><span>место</span></li>
+				</ul>
+			</div>
+			<div class="car car_start">
+				<div class="car__body">
+					<i class="car__wheel-left"></i>
+					<i class="car__wheel-right"></i>
+				</div>
+				<div class="car__shadow"></div>
+			</div>
+			<div class="task">
+				<a class="task__1" href="#"><img src="img/task1.jpg" alt="">КОНКУРС АКТИВЕН с <span>22.11</span> по <span>1.12</span></a>
+				<a class="task__2" href="#"><img src="img/task1.jpg" alt="">КОНКУРС АКТИВЕН с <span>22.11</span> по <span>1.12</span></a>
+				<a class="task__3" href="#"><img src="img/task1.jpg" alt="">КОНКУРС АКТИВЕН с <span>22.11</span> по <span>1.12</span></a>
+			</div>
+		</div>	
+		<div class="curb"></div>
+		<div class="asphalt"></div>
+	</div>
+	<!-- END .road -->
+	<!-- BEGIN .footer -->
+	<div class="footer">
+		<div class="footer__title">
+			<img src="img/footer.jpg" alt="">
+		</div>
+		<div class="container">
 			<ul>
-				<li class="speed__result"><b>5:45</b><span>результат последнего дня</span></li>
-				<li class="speed__point"><b>12479</b><span>место</span></li>
+				<li>© 2012 PMRU<span>|</span></li>
+				<li><a href="#">Контакты</a><span>|</span></li>
+				<li><a href="#">Закрыть доступ</a><span>|</span></li>
+				<li><a href="#">правила использования сайта</a><span>|</span></li>
+				<li><a href="#">риски связанные со здоровьем</a><span>|</span></li>
+				<li><a href="#">вопросы и ответы</a></li>
 			</ul>
-		</div>
-		<div class="car car_start">
-			<div class="car__body">
-				<i class="car__wheel-left"></i>
-				<i class="car__wheel-right"></i>
-			</div>
-			<div class="car__shadow"></div>
-		</div>
-		<div class="task">
-			<a class="task__1" href="#"><img src="img/task1.jpg" alt="">КОНКУРС АКТИВЕН с <span>22.11</span> по <span>1.12</span></a>
-			<a class="task__2" href="#"><img src="img/task1.jpg" alt="">КОНКУРС АКТИВЕН с <span>22.11</span> по <span>1.12</span></a>
-			<a class="task__3" href="#"><img src="img/task1.jpg" alt="">КОНКУРС АКТИВЕН с <span>22.11</span> по <span>1.12</span></a>
-		</div>
-	</div>	
-	<div class="curb"></div>
-	<div class="asphalt"></div>
-</div>
-<!-- END .road -->
-<!-- BEGIN .footer -->
-<div class="footer">
-	<div class="footer__title">
-		<img src="img/footer.jpg" alt="">
+		</div>	
 	</div>
-	<div class="container">
-		<ul>
-			<li>© 2012 PMRU<span>|</span></li>
-			<li><a href="#">Контакты</a><span>|</span></li>
-			<li><a href="#">Закрыть доступ</a><span>|</span></li>
-			<li><a href="#">правила использования сайта</a><span>|</span></li>
-			<li><a href="#">риски связанные со здоровьем</a><span>|</span></li>
-			<li><a href="#">вопросы и ответы</a></li>
-		</ul>
-	</div>	
+	<!-- END .footer -->
 </div>
-<!-- END .footer -->
+<!-- END .wrap -->
 </body>
 </html>

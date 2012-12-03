@@ -20,7 +20,7 @@
 .paper {
   position: absolute;
   top: -70px;
-  left: -90px;
+  left: -190px;
   width: 395px;
   height: 285px;
   background: url(../img/paper.png) no-repeat 0 0;
@@ -78,7 +78,7 @@
 .tank {
   position: absolute;
   top: 160px;
-  right: 40px;
+  right: -60px;
   width: 98px;
   height: 410px;
   background: url(../img/tank.png) no-repeat 0 0;
@@ -269,7 +269,7 @@
 .task {
   position: absolute;
   bottom: 0;
-  right: -35px;
+  right: -135px;
   width: 480px;
   height: 90px;
   background: url(../img/task.png) no-repeat 0 0;
@@ -389,7 +389,7 @@
 /* line 300, ../scss/main.scss */
 .speed {
   position: absolute;
-  left: 78px;
+  left: -22px;
   bottom: -10px;
   width: 189px;
   height: 60px;
@@ -454,7 +454,7 @@
 .car {
   position: absolute;
   top: 37px;
-  left: 355px;
+  left: 255px;
   width: 505px;
   height: 135px;
 }
