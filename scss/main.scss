@@ -10,7 +10,7 @@
 .paper {
 	position: absolute;
 	top: -70px;
-	left: -190px;
+	left: -90px;
 	width: 395px;
 	height: 285px;
 	background: url(../img/paper.png) no-repeat 0 0;
@@ -58,11 +58,12 @@
 /*tank*/
 .tank {
 	position: absolute;
-	top: 160px;
-	right: -60px;
+	bottom: 240px;
+	right: 30px;
 	width: 98px;
 	height: 410px;
 	background: url(../img/tank.png) no-repeat 0 0;
+	z-index: 10;
 }
 .tank__code {
 	position: absolute;
@@ -92,8 +93,8 @@
 }
 .tank__boost {
 	position: absolute;
-	bottom: -65px;
-	right: 7px;
+	bottom: 5px;
+	left: -130px;
 	color: #fff;
 	text-align: right;	
 	b {
@@ -162,7 +163,7 @@
 	}
 }
 .tank-fill {
-	top: 370px;
+	bottom: 450px;
 	height: 75px;
 	background: url(../img/tank-fill.png) no-repeat 0 0;
 	input {
@@ -180,12 +181,11 @@
 }
 /*road*/
 .road {		
-	position: relative;
-	.container {
-		position: relative;
-		height: 256px;		
-		z-index: 10;
-	}
+	position: absolute;
+	bottom: 100px;
+	left: 0;
+	width: 100%;
+	height: 256px;
 }
 .curb {
 	position: absolute;
@@ -205,8 +205,8 @@
 }
 .task {
 	position: absolute;
-	bottom: 0;
-	right: -110px;
+	bottom: 103px;
+	right: 0;
 	width: 480px;
 	height: 90px;
 	background: url(../img/task.png) no-repeat 0 0;
@@ -280,9 +280,9 @@
 /*stop*/
 .stop {
 	position: absolute;
-	top: 60px;
-	right: 50px;
-	background: url(../img/stop-bg.jpg) no-repeat 0 0;
+	top: 40px;
+	right: 40px;
+	background: url(../img/stop-bg.jpg);
 	border: 2px solid #5c89b5;
 	@include border-radius(2px);
 	padding: 12px 58px 12px 20px;
@@ -301,12 +301,13 @@
 /*speed*/
 .speed {
 	position: absolute;
-	left: -22px;
-	bottom: -10px;
+	left: 30px;
+	bottom: 90px;
 	width: 189px;
 	height: 60px;
 	padding-top: 190px;
 	background: url(../img/speed.png) no-repeat 0 0;
+	z-index: 10;
 	li {
 		overflow: hidden;
 	}
@@ -349,9 +350,9 @@
 /*cars default*/
 .car {
 	position: absolute;
-	top: 37px;
+	bottom: 220px;
 	left: 50%;
-	margin-left: -250px;
+	margin-left: -270px;
 	width: 505px;
 	height: 135px;
 }

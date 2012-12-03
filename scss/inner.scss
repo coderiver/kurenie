@@ -2,46 +2,30 @@
 @import "base";
 /*screen-out*/
 .wrap_inner {
-	position: relative;	
-	background: url(../img/bg1.jpg) no-repeat 50% -10px $blue; 
-	.container_screen {
-		height: 910px;
-	}
-	.footer {
-		position: absolute;
-		bottom: 0;
-	}
+	background: url(../img/bg1.jpg) no-repeat 50% 100% $blue; 
 }
 .paper-inner {
 	position: absolute;
 	top: -10;
-	left: -120px;
+	left: -40px;
 	width: 360px;
 	height: 340px;
 	background: url(../img/paper-inner.png) no-repeat 0 0;
 	z-index: 10;
 }
-.container_screen {
-	width: auto;
-	margin: 0 100px;
-	@include respond-to(pda) {
-		width: 996px;
-		margin: 0 auto;
-	}
-}	
 .feet {
 	position: absolute;
 	bottom: 0px;
 	left: 50%;
 	margin-left: -280px;
 	width: 560px;
-	height: 323px;
+	height: 278px;
 	background: url(../img/feet.png) no-repeat 0 0;
 	z-index: 40;
 }
 .screen {
 	position: absolute;
-	top: 106px;
+	bottom: 106px;
 	left: 50%;
 	margin-left: -435px;
 	width: 890px;
@@ -112,6 +96,9 @@
 	width: 240px;
 	height: 170px;
 	background: url(../img/screen-courner.png) no-repeat 0 0;
+	@include respond-to(pda) {
+		top: 175px;
+	}
 }
 .data {
 	position: absolute;
@@ -121,6 +108,9 @@
 	height: 150px;
 	padding: 20px 0 0 30px;
 	z-index: 20;
+	@include respond-to(pda) {
+		top: 175px;
+	}
 	li {
 		margin-bottom: 2px;
 	}
@@ -177,12 +167,15 @@
 /*codes*/
 .codes {
 	position: absolute;
-	top: 235px;
-	left: -70px;
+	bottom: 310px;
+	left: 30px;
 	width: 104px;
 	padding: 20px 20px 15px 20px;
 	background: #375996;
 	color: #fff;
+	@include respond-to(pda) {
+		left: -30px;
+	}
 }
 .codes__top {
 	padding: 0 0 10px 10px;	
@@ -243,18 +236,24 @@
 /*photo-group*/
 .photo-group {
 	position: absolute;
-	top: 500px;
-	left: -70px;
+	bottom: 115px;
+	left: 30px;
 	@include sized-sprite($icons, photo);
+	@include respond-to(pda) {
+		left: -30px;
+	}
 }
 /*rate*/
 .rate {
 	position: absolute;
-	right: -90px;
-	bottom: 280px;
+	right: 30px;
+	bottom: 250px;
 	width: 155px;
 	padding: 20px 15px 30px 15px;
 	background: #375996;
+	@include respond-to(pda) {
+		right: -60px;
+	}
 	.h1 {
 		margin-bottom: 10px;
 	}
