@@ -19,7 +19,13 @@
 	z-index: 10;
 }
 .container_screen {
+	width: auto;
 	height: 910px;
+	margin: 0 100px;
+	@include respond-to(pda) {
+		width: 996px;
+		margin: 0 auto;
+	}
 }	
 .feet {
 	position: absolute;
@@ -34,7 +40,8 @@
 .screen {
 	position: absolute;
 	top: 106px;
-	left: 65px;
+	left: 50%;
+	margin-left: -435px;
 	width: 890px;
 	height: 620px;	
 } 

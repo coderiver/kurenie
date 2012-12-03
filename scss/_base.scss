@@ -20,5 +20,9 @@ $blue: #001856;
 	font-weight: normal;
 	font-style: normal;
 }
-
+@mixin respond-to($media) {
+  @if $media == pda {
+    @media only screen and (max-width: 1200px) { @content; }
+  }
+}
 
