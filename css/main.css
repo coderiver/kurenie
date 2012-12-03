@@ -269,7 +269,7 @@
 .task {
   position: absolute;
   bottom: 0;
-  right: -135px;
+  right: -110px;
   width: 480px;
   height: 90px;
   background: url(../img/task.png) no-repeat 0 0;
@@ -454,12 +454,13 @@
 .car {
   position: absolute;
   top: 37px;
-  left: 255px;
+  left: 50%;
+  margin-left: -250px;
   width: 505px;
   height: 135px;
 }
 
-/* line 355, ../scss/main.scss */
+/* line 356, ../scss/main.scss */
 .car__body {
   position: absolute;
   top: 0;
@@ -468,7 +469,7 @@
   height: 115px;
   z-index: 10;
 }
-/* line 362, ../scss/main.scss */
+/* line 363, ../scss/main.scss */
 .car__body i {
   position: absolute;
   bottom: -5px;
@@ -476,7 +477,7 @@
   height: 79px;
 }
 
-/* line 369, ../scss/main.scss */
+/* line 370, ../scss/main.scss */
 .car__shadow {
   position: absolute;
   left: 0;
@@ -488,68 +489,68 @@
 }
 
 /*car start*/
-/* line 380, ../scss/main.scss */
+/* line 381, ../scss/main.scss */
 .car_start .car__body {
   background: url(../img/car-new.png) no-repeat 0 0;
 }
-/* line 383, ../scss/main.scss */
+/* line 384, ../scss/main.scss */
 .car_start .car__wheel-left {
   left: 43px;
   background: url(../img/wheel-new.png) no-repeat 0 0;
 }
-/* line 387, ../scss/main.scss */
+/* line 388, ../scss/main.scss */
 .car_start .car__wheel-right {
   right: 82px;
   background: url(../img/wheel-new.png) no-repeat 0 0;
 }
 
 /*car run*/
-/* line 394, ../scss/main.scss */
+/* line 395, ../scss/main.scss */
 .car_run .car__body {
   top: 1px;
   background: url(../img/car-run.png) no-repeat 0 0;
 }
-/* line 397, ../scss/main.scss */
+/* line 398, ../scss/main.scss */
 .car_run .car__body i {
   bottom: -4px;
 }
-/* line 401, ../scss/main.scss */
+/* line 402, ../scss/main.scss */
 .car_run .car__wheel-left {
   left: 45px;
   background: url(../img/wheel-l-r.png) no-repeat 0 0;
 }
-/* line 405, ../scss/main.scss */
+/* line 406, ../scss/main.scss */
 .car_run .car__wheel-right {
   right: 86px;
   background: url(../img/wheel-r-r.png) no-repeat 0 0;
 }
 
 /*car split*/
-/* line 412, ../scss/main.scss */
+/* line 413, ../scss/main.scss */
 .car_run-split .car__wheel-left {
   left: 43px;
 }
-/* line 415, ../scss/main.scss */
+/* line 416, ../scss/main.scss */
 .car_run-split .car__wheel-right {
   right: 87px;
 }
 
 /*car save*/
-/* line 421, ../scss/main.scss */
+/* line 422, ../scss/main.scss */
 .car_save .car__body {
   top: 1px;
   background: url(../img/car-save.png) no-repeat 0 0;
 }
-/* line 424, ../scss/main.scss */
+/* line 425, ../scss/main.scss */
 .car_save .car__body i {
   bottom: -3px;
 }
-/* line 428, ../scss/main.scss */
+/* line 429, ../scss/main.scss */
 .car_save .car__wheel-left {
   left: 45px;
   background: url(../img/wheel-l-s.png) no-repeat 0 0;
 }
-/* line 432, ../scss/main.scss */
+/* line 433, ../scss/main.scss */
 .car_save .car__wheel-right {
   right: 80px;
   background: url(../img/wheel-r-s.png) no-repeat 0 0;

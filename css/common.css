@@ -16,43 +16,44 @@
 
 /* line 5, ../scss/common.scss */
 body {
+  background: #001856;
   font-family: Arial, Tahoma, sans-serif;
   font-weight: normal;
   font-size: 9px;
   line-height: 1;
 }
 
-/* line 13, ../scss/common.scss */
+/* line 14, ../scss/common.scss */
 a img, fieldset {
   border: none;
 }
 
-/* line 16, ../scss/common.scss */
+/* line 17, ../scss/common.scss */
 li {
   list-style: none;
 }
 
-/* line 19, ../scss/common.scss */
+/* line 20, ../scss/common.scss */
 input, textarea, button {
   border: none;
   outline: none;
 }
 
-/* line 23, ../scss/common.scss */
+/* line 24, ../scss/common.scss */
 .h1 {
   font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
   font-size: 18px;
   color: #fff;
 }
 
-/* line 28, ../scss/common.scss */
+/* line 29, ../scss/common.scss */
 .h2 {
   font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
   font-size: 16px;
   color: #fff;
 }
 
-/* line 33, ../scss/common.scss */
+/* line 34, ../scss/common.scss */
 .clr {
   clear: both;
   height: 1px;
@@ -61,14 +62,14 @@ input, textarea, button {
 }
 
 /*general styles*/
-/* line 40, ../scss/common.scss */
+/* line 41, ../scss/common.scss */
 .container {
   position: relative;
   width: 996px;
   margin: 0 auto;
 }
 
-/* line 45, ../scss/common.scss */
+/* line 46, ../scss/common.scss */
 .wrap {
   overflow: hidden;
   min-width: 996px;
@@ -76,7 +77,7 @@ input, textarea, button {
 }
 
 /*nav*/
-/* line 51, ../scss/common.scss */
+/* line 52, ../scss/common.scss */
 .nav {
   position: absolute;
   top: 60px;
@@ -91,27 +92,27 @@ input, textarea, button {
   border-radius: 2px;
   background: url(../img/nav-bg.jpg) no-repeat 0 0;
 }
-/* line 60, ../scss/common.scss */
+/* line 61, ../scss/common.scss */
 .nav li {
   float: left;
 }
-/* line 63, ../scss/common.scss */
+/* line 64, ../scss/common.scss */
 .nav a {
   font-size: 10px;
   color: #fff;
 }
-/* line 66, ../scss/common.scss */
+/* line 67, ../scss/common.scss */
 .nav a:hover {
   color: #fffc1b;
 }
-/* line 70, ../scss/common.scss */
+/* line 71, ../scss/common.scss */
 .nav span {
   margin: 0 15px;
   color: #fff;
 }
 
 /*footer*/
-/* line 76, ../scss/common.scss */
+/* line 77, ../scss/common.scss */
 .footer {
   position: relative;
   width: 100%;
@@ -120,29 +121,29 @@ input, textarea, button {
   border-top: 1px solid #000;
   z-index: 50;
 }
-/* line 83, ../scss/common.scss */
+/* line 84, ../scss/common.scss */
 .footer ul {
   margin-left: 118px;
   height: 20px;
   line-height: 20px;
 }
-/* line 88, ../scss/common.scss */
+/* line 89, ../scss/common.scss */
 .footer li {
   float: left;
   text-transform: uppercase;
   color: #fff;
   font-size: 10px;
 }
-/* line 94, ../scss/common.scss */
+/* line 95, ../scss/common.scss */
 .footer a {
   color: #fff;
 }
-/* line 97, ../scss/common.scss */
+/* line 98, ../scss/common.scss */
 .footer span {
   margin: 0 5px;
 }
 
-/* line 101, ../scss/common.scss */
+/* line 102, ../scss/common.scss */
 .footer__title {
   border-bottom: 3px solid #d2d2d2;
   background: #fff;

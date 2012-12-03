@@ -4,6 +4,9 @@
 .wrap_inner {
 	position: relative;	
 	background: url(../img/bg1.jpg) no-repeat 50% -10px $blue; 
+	.container_screen {
+		height: 910px;
+	}
 	.footer {
 		position: absolute;
 		bottom: 0;
@@ -20,7 +23,6 @@
 }
 .container_screen {
 	width: auto;
-	height: 910px;
 	margin: 0 100px;
 	@include respond-to(pda) {
 		width: 996px;

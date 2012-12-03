@@ -14,12 +14,16 @@
   background: url(../img/bg1.jpg) no-repeat 50% -10px #001856;
 }
 /* line 7, ../scss/inner.scss */
+.wrap_inner .container_screen {
+  height: 910px;
+}
+/* line 10, ../scss/inner.scss */
 .wrap_inner .footer {
   position: absolute;
   bottom: 0;
 }
 
-/* line 12, ../scss/inner.scss */
+/* line 15, ../scss/inner.scss */
 .paper-inner {
   position: absolute;
   top: -10;
@@ -30,21 +34,20 @@
   z-index: 10;
 }
 
-/* line 21, ../scss/inner.scss */
+/* line 24, ../scss/inner.scss */
 .container_screen {
   width: auto;
-  height: 910px;
   margin: 0 100px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 21, ../scss/inner.scss */
+  /* line 24, ../scss/inner.scss */
   .container_screen {
     width: 996px;
     margin: 0 auto;
   }
 }
 
-/* line 30, ../scss/inner.scss */
+/* line 32, ../scss/inner.scss */
 .feet {
   position: absolute;
   bottom: 0px;
@@ -56,7 +59,7 @@
   z-index: 40;
 }
 
-/* line 40, ../scss/inner.scss */
+/* line 42, ../scss/inner.scss */
 .screen {
   position: absolute;
   top: 106px;
@@ -66,7 +69,7 @@
   height: 620px;
 }
 
-/* line 48, ../scss/inner.scss */
+/* line 50, ../scss/inner.scss */
 .screen__bg {
   position: absolute;
   top: 0;
@@ -77,7 +80,7 @@
   z-index: 10;
 }
 
-/* line 57, ../scss/inner.scss */
+/* line 59, ../scss/inner.scss */
 .screen__speed {
   position: absolute;
   bottom: 95px;
@@ -87,7 +90,7 @@
   background: url(../img/speed-s.png) no-repeat 0 0;
   z-index: 10;
 }
-/* line 65, ../scss/inner.scss */
+/* line 67, ../scss/inner.scss */
 .screen__speed i {
   position: absolute;
   top: 8px;
@@ -97,7 +100,7 @@
   height: 54px;
 }
 
-/* line 72, ../scss/inner.scss */
+/* line 74, ../scss/inner.scss */
 .screen__road {
   position: absolute;
   left: 65px;
@@ -107,7 +110,7 @@
   background: url(../img/road-s.jpg);
 }
 
-/* line 80, ../scss/inner.scss */
+/* line 82, ../scss/inner.scss */
 .screen__curb {
   position: absolute;
   left: 65px;
@@ -117,7 +120,7 @@
   background: url(../img/curb-s.png);
 }
 
-/* line 88, ../scss/inner.scss */
+/* line 90, ../scss/inner.scss */
 .screen__car {
   position: absolute;
   bottom: 155px;
@@ -127,7 +130,7 @@
   background: url(../img/car-s.png) no-repeat 0 0;
   z-index: 20;
 }
-/* line 96, ../scss/inner.scss */
+/* line 98, ../scss/inner.scss */
 .screen__car span {
   position: absolute;
   bottom: 4px;
@@ -136,17 +139,17 @@
   background: url(../img/wheel-s.png) no-repeat 0 0;
 }
 
-/* line 104, ../scss/inner.scss */
+/* line 106, ../scss/inner.scss */
 .screen__wheel-l {
   left: 26px;
 }
 
-/* line 105, ../scss/inner.scss */
+/* line 107, ../scss/inner.scss */
 .screen__wheel-r {
   right: 51px;
 }
 
-/* line 106, ../scss/inner.scss */
+/* line 108, ../scss/inner.scss */
 .data-bg {
   position: absolute;
   top: 55px;
@@ -156,7 +159,7 @@
   background: url(../img/screen-courner.png) no-repeat 0 0;
 }
 
-/* line 114, ../scss/inner.scss */
+/* line 116, ../scss/inner.scss */
 .data {
   position: absolute;
   top: 55px;
@@ -166,49 +169,49 @@
   padding: 20px 0 0 30px;
   z-index: 20;
 }
-/* line 122, ../scss/inner.scss */
+/* line 124, ../scss/inner.scss */
 .data li {
   margin-bottom: 2px;
 }
-/* line 125, ../scss/inner.scss */
+/* line 127, ../scss/inner.scss */
 .data a {
   font-family: 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
   font-size: 12px;
   color: #fff;
 }
 
-/* line 131, ../scss/inner.scss */
+/* line 133, ../scss/inner.scss */
 .data__name {
   margin-bottom: 5px;
   font-size: 19px;
   color: #6ab0ff;
 }
 
-/* line 136, ../scss/inner.scss */
+/* line 138, ../scss/inner.scss */
 .data__result {
   color: #fff;
 }
-/* line 138, ../scss/inner.scss */
+/* line 140, ../scss/inner.scss */
 .data__result b {
   margin-right: 5px;
   font-size: 14px;
 }
-/* line 142, ../scss/inner.scss */
+/* line 144, ../scss/inner.scss */
 .data__result span {
   font-size: 10px;
 }
 
-/* line 146, ../scss/inner.scss */
+/* line 148, ../scss/inner.scss */
 .data__place {
   font-size: 14px;
   color: #fff;
 }
-/* line 149, ../scss/inner.scss */
+/* line 151, ../scss/inner.scss */
 .data__place span {
   margin-right: 5px;
 }
 
-/* line 153, ../scss/inner.scss */
+/* line 155, ../scss/inner.scss */
 .data__map {
   position: relative;
   margin-top: 15px;
@@ -217,7 +220,7 @@
   background: url(../img/map.png) no-repeat 0 0;
 }
 
-/* line 160, ../scss/inner.scss */
+/* line 162, ../scss/inner.scss */
 .data__road {
   position: absolute;
   top: 5px;
@@ -227,7 +230,7 @@
   background: url(../img/road.png) no-repeat 0 0;
   overflow: hidden;
 }
-/* line 168, ../scss/inner.scss */
+/* line 170, ../scss/inner.scss */
 .data__road i {
   position: absolute;
   top: 4px;
@@ -238,7 +241,7 @@
 }
 
 /*codes*/
-/* line 176, ../scss/inner.scss */
+/* line 178, ../scss/inner.scss */
 .codes {
   position: absolute;
   top: 235px;
@@ -249,39 +252,39 @@
   color: #fff;
 }
 
-/* line 185, ../scss/inner.scss */
+/* line 187, ../scss/inner.scss */
 .codes__top {
   padding: 0 0 10px 10px;
   border-bottom: 1px solid #5d78aa;
 }
-/* line 188, ../scss/inner.scss */
+/* line 190, ../scss/inner.scss */
 .codes__top span {
   display: block;
   margin-bottom: 5px;
   font-size: 11px;
 }
-/* line 193, ../scss/inner.scss */
+/* line 195, ../scss/inner.scss */
 .codes__top b {
   font-size: 12px;
   color: #f2242e;
 }
-/* line 197, ../scss/inner.scss */
+/* line 199, ../scss/inner.scss */
 .codes__top strong {
   font-size: 12px;
   color: #81c1ff;
 }
 
-/* line 202, ../scss/inner.scss */
+/* line 204, ../scss/inner.scss */
 .codes__history {
   position: relative;
   padding: 11px 0 8px 22px;
 }
-/* line 205, ../scss/inner.scss */
+/* line 207, ../scss/inner.scss */
 .codes__history a {
   color: #fff;
   line-height: 1.3;
 }
-/* line 209, ../scss/inner.scss */
+/* line 211, ../scss/inner.scss */
 .codes__history i {
   position: absolute;
   top: 13px;
@@ -291,40 +294,40 @@
   height: 18px;
 }
 
-/* line 216, ../scss/inner.scss */
+/* line 218, ../scss/inner.scss */
 .codes__scroll {
   width: 112px;
   height: 122px;
   overflow: auto;
 }
-/* line 220, ../scss/inner.scss */
+/* line 222, ../scss/inner.scss */
 .codes__scroll ul {
   width: 90px;
   padding-left: 4px;
 }
-/* line 224, ../scss/inner.scss */
+/* line 226, ../scss/inner.scss */
 .codes__scroll li {
   padding-bottom: 15px;
 }
-/* line 227, ../scss/inner.scss */
+/* line 229, ../scss/inner.scss */
 .codes__scroll b {
   font-size: 11px;
   color: #f2242e;
 }
-/* line 231, ../scss/inner.scss */
+/* line 233, ../scss/inner.scss */
 .codes__scroll span {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 236, ../scss/inner.scss */
+/* line 238, ../scss/inner.scss */
 .codes__scroll b, .codes__scroll span {
   display: block;
   margin-bottom: 2px;
 }
 
 /*photo-group*/
-/* line 242, ../scss/inner.scss */
+/* line 244, ../scss/inner.scss */
 .photo-group {
   position: absolute;
   top: 500px;
@@ -335,7 +338,7 @@
 }
 
 /*rate*/
-/* line 249, ../scss/inner.scss */
+/* line 251, ../scss/inner.scss */
 .rate {
   position: absolute;
   right: -90px;
@@ -344,15 +347,15 @@
   padding: 20px 15px 30px 15px;
   background: #375996;
 }
-/* line 256, ../scss/inner.scss */
+/* line 258, ../scss/inner.scss */
 .rate .h1 {
   margin-bottom: 10px;
 }
-/* line 259, ../scss/inner.scss */
+/* line 261, ../scss/inner.scss */
 .rate ul {
   margin-bottom: 15px;
 }
-/* line 262, ../scss/inner.scss */
+/* line 264, ../scss/inner.scss */
 .rate li {
   height: 22px;
   border-top: 1px solid #5372b1;
@@ -360,7 +363,7 @@
   overflow: hidden;
   color: #fff;
 }
-/* line 268, ../scss/inner.scss */
+/* line 270, ../scss/inner.scss */
 .rate li span {
   float: left;
   width: 115px;
@@ -369,13 +372,13 @@
   white-space: nowrap;
   color: #7cbaff;
 }
-/* line 276, ../scss/inner.scss */
+/* line 278, ../scss/inner.scss */
 .rate li b {
   float: right;
   font-weight: normal;
 }
 
-/* line 282, ../scss/inner.scss */
+/* line 284, ../scss/inner.scss */
 .rate__result-title {
   margin-bottom: 7px;
   font-size: 11px;
@@ -384,7 +387,7 @@
   text-align: center;
 }
 
-/* line 289, ../scss/inner.scss */
+/* line 291, ../scss/inner.scss */
 .rate__result {
   margin: 0 -15px 15px -15px;
   height: 29px;
@@ -395,33 +398,33 @@
   color: #fff;
   font-weight: bold;
 }
-/* line 298, ../scss/inner.scss */
+/* line 300, ../scss/inner.scss */
 .rate__result a {
   margin-left: 5px;
   color: #fff;
 }
-/* line 302, ../scss/inner.scss */
+/* line 304, ../scss/inner.scss */
 .rate__result span {
   margin-left: 5px;
   color: #173f7a;
 }
 
-/* line 307, ../scss/inner.scss */
+/* line 309, ../scss/inner.scss */
 .rate__search {
   padding-left: 12px;
   margin-right: -20px;
   overflow: hidden;
 }
-/* line 311, ../scss/inner.scss */
+/* line 313, ../scss/inner.scss */
 .rate__search .h2 {
   margin-bottom: 5px;
 }
-/* line 314, ../scss/inner.scss */
+/* line 316, ../scss/inner.scss */
 .rate__search input {
   float: left;
 }
 
-/* line 318, ../scss/inner.scss */
+/* line 320, ../scss/inner.scss */
 .rate__search-txt {
   width: 114px;
   height: 21px;
@@ -432,7 +435,7 @@
   border-top: 1px solid #7f7f7f;
 }
 
-/* line 327, ../scss/inner.scss */
+/* line 329, ../scss/inner.scss */
 .rate__search-btn {
   width: 22px;
   height: 22px;
@@ -450,18 +453,18 @@
 }
 
 /*scroll*/
-/* line 340, ../scss/inner.scss */
+/* line 342, ../scss/inner.scss */
 .jspContainer {
   overflow: hidden;
   position: relative;
 }
 
-/* line 345, ../scss/inner.scss */
+/* line 347, ../scss/inner.scss */
 .jspPane {
   position: absolute;
 }
 
-/* line 349, ../scss/inner.scss */
+/* line 351, ../scss/inner.scss */
 .jspVerticalBar {
   position: absolute;
   top: 0;
@@ -470,12 +473,12 @@
   height: 100%;
 }
 
-/* line 357, ../scss/inner.scss */
+/* line 359, ../scss/inner.scss */
 .jspCap {
   display: none;
 }
 
-/* line 361, ../scss/inner.scss */
+/* line 363, ../scss/inner.scss */
 .jspTrack {
   width: 3px;
   right: -4px;
@@ -483,7 +486,7 @@
   position: relative;
 }
 
-/* line 368, ../scss/inner.scss */
+/* line 370, ../scss/inner.scss */
 .jspDrag {
   background: #bbd;
   position: relative;
@@ -495,7 +498,7 @@
   height: 11px;
 }
 
-/* line 377, ../scss/inner.scss */
+/* line 379, ../scss/inner.scss */
 .jspArrow {
   background: #50506d;
   text-indent: -20000px;
@@ -503,23 +506,23 @@
   cursor: pointer;
 }
 
-/* line 384, ../scss/inner.scss */
+/* line 386, ../scss/inner.scss */
 .jspArrow.jspDisabled {
   cursor: default;
   background: #80808d;
 }
 
-/* line 389, ../scss/inner.scss */
+/* line 391, ../scss/inner.scss */
 .jspVerticalBar .jspArrow {
   height: 16px;
 }
 
-/* line 393, ../scss/inner.scss */
+/* line 395, ../scss/inner.scss */
 .jspVerticalBar .jspArrow:focus {
   outline: none;
 }
 
-/* line 397, ../scss/inner.scss */
+/* line 399, ../scss/inner.scss */
 .jspCorner {
   background: #eeeef4;
   float: left;
@@ -527,7 +530,7 @@
 }
 
 /* Yuk! CSS Hack for IE6 3 pixel bug :( */
-/* line 405, ../scss/inner.scss */
+/* line 407, ../scss/inner.scss */
 * html .jspCorner {
   margin: 0 -3px 0 0;
 }
