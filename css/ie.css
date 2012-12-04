@@ -1,0 +1,5 @@
+/* line 2, ../scss/ie.scss */
+.ie8 .wrap {
+  height: 100% !important;
+  height: 768px;
+}
