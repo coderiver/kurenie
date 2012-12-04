@@ -16,10 +16,10 @@
 /* line 7, ../scss/inner.scss */
 .paper-inner {
   position: absolute;
-  top: -10;
+  top: -10px;
   left: -40px;
   width: 360px;
-  height: 340px;
+  height: 240px;
   background: url(../img/paper-inner.png) no-repeat 0 0;
   z-index: 10;
 }
@@ -234,52 +234,47 @@
 .codes {
   position: absolute;
   bottom: 310px;
-  left: 30px;
+  left: 50%;
   width: 104px;
   padding: 20px 20px 15px 20px;
+  margin-left: -560px;
   background: #375996;
   color: #fff;
 }
-@media only screen and (max-width: 1200px) {
-  /* line 168, ../scss/inner.scss */
-  .codes {
-    left: -30px;
-  }
-}
 
-/* line 180, ../scss/inner.scss */
+/* line 178, ../scss/inner.scss */
 .codes__top {
   padding: 0 0 10px 10px;
   border-bottom: 1px solid #5d78aa;
 }
-/* line 183, ../scss/inner.scss */
+/* line 181, ../scss/inner.scss */
 .codes__top span {
   display: block;
   margin-bottom: 5px;
   font-size: 11px;
 }
-/* line 188, ../scss/inner.scss */
+/* line 186, ../scss/inner.scss */
 .codes__top b {
   font-size: 12px;
   color: #f2242e;
 }
-/* line 192, ../scss/inner.scss */
+/* line 190, ../scss/inner.scss */
 .codes__top strong {
   font-size: 12px;
   color: #81c1ff;
 }
 
-/* line 197, ../scss/inner.scss */
+/* line 195, ../scss/inner.scss */
 .codes__history {
   position: relative;
   padding: 11px 0 8px 22px;
 }
-/* line 200, ../scss/inner.scss */
+/* line 198, ../scss/inner.scss */
 .codes__history a {
   color: #fff;
   line-height: 1.3;
 }
-/* line 204, ../scss/inner.scss */
+/* line 202, ../scss/inner.scss */
 .codes__history i {
   position: absolute;
   top: 13px;
@@ -289,80 +284,70 @@
   height: 18px;
 }
 
-/* line 211, ../scss/inner.scss */
+/* line 209, ../scss/inner.scss */
 .codes__scroll {
   width: 112px;
   height: 122px;
   overflow: auto;
 }
-/* line 215, ../scss/inner.scss */
+/* line 213, ../scss/inner.scss */
 .codes__scroll ul {
   width: 90px;
   padding-left: 4px;
 }
-/* line 219, ../scss/inner.scss */
+/* line 217, ../scss/inner.scss */
 .codes__scroll li {
   padding-bottom: 15px;
 }
-/* line 222, ../scss/inner.scss */
+/* line 220, ../scss/inner.scss */
 .codes__scroll b {
   font-size: 11px;
   color: #f2242e;
 }
-/* line 226, ../scss/inner.scss */
+/* line 224, ../scss/inner.scss */
 .codes__scroll span {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 231, ../scss/inner.scss */
+/* line 229, ../scss/inner.scss */
 .codes__scroll b, .codes__scroll span {
   display: block;
   margin-bottom: 2px;
 }
 
 /*photo-group*/
-/* line 237, ../scss/inner.scss */
+/* line 235, ../scss/inner.scss */
 .photo-group {
   position: absolute;
   bottom: 115px;
-  left: 30px;
+  left: 50%;
+  margin-left: -560px;
   background: url('../img/icons-s872b03ebd8.png') 0 0 no-repeat;
   width: 150px;
   height: 175px;
 }
-@media only screen and (max-width: 1200px) {
-  /* line 237, ../scss/inner.scss */
-  .photo-group {
-    left: -30px;
-  }
-}
 
 /*rate*/
-/* line 247, ../scss/inner.scss */
+/* line 243, ../scss/inner.scss */
 .rate {
   position: absolute;
-  right: 30px;
+  right: 50%;
   bottom: 250px;
   width: 155px;
   padding: 20px 15px 30px 15px;
+  margin-right: -600px;
   background: #375996;
 }
-@media only screen and (max-width: 1200px) {
-  /* line 247, ../scss/inner.scss */
-  .rate {
-    right: -60px;
-  }
-}
-/* line 257, ../scss/inner.scss */
+/* line 251, ../scss/inner.scss */
 .rate .h1 {
   margin-bottom: 10px;
 }
-/* line 260, ../scss/inner.scss */
+/* line 254, ../scss/inner.scss */
 .rate ul {
   margin-bottom: 15px;
 }
-/* line 263, ../scss/inner.scss */
+/* line 257, ../scss/inner.scss */
 .rate li {
   height: 22px;
   border-top: 1px solid #5372b1;
@@ -370,7 +355,7 @@
   overflow: hidden;
   color: #fff;
 }
-/* line 269, ../scss/inner.scss */
+/* line 263, ../scss/inner.scss */
 .rate li span {
   float: left;
   width: 115px;
@@ -379,13 +364,13 @@
   white-space: nowrap;
   color: #7cbaff;
 }
-/* line 277, ../scss/inner.scss */
+/* line 271, ../scss/inner.scss */
 .rate li b {
   float: right;
   font-weight: normal;
 }
 
-/* line 283, ../scss/inner.scss */
+/* line 277, ../scss/inner.scss */
 .rate__result-title {
   margin-bottom: 7px;
   font-size: 11px;
@@ -394,7 +379,7 @@
   text-align: center;
 }
 
-/* line 290, ../scss/inner.scss */
+/* line 284, ../scss/inner.scss */
 .rate__result {
   margin: 0 -15px 15px -15px;
   height: 29px;
@@ -405,33 +390,33 @@
   color: #fff;
   font-weight: bold;
 }
-/* line 299, ../scss/inner.scss */
+/* line 293, ../scss/inner.scss */
 .rate__result a {
   margin-left: 5px;
   color: #fff;
 }
-/* line 303, ../scss/inner.scss */
+/* line 297, ../scss/inner.scss */
 .rate__result span {
   margin-left: 5px;
   color: #173f7a;
 }
 
-/* line 308, ../scss/inner.scss */
+/* line 302, ../scss/inner.scss */
 .rate__search {
   padding-left: 12px;
   margin-right: -20px;
   overflow: hidden;
 }
-/* line 312, ../scss/inner.scss */
+/* line 306, ../scss/inner.scss */
 .rate__search .h2 {
   margin-bottom: 5px;
 }
-/* line 315, ../scss/inner.scss */
+/* line 309, ../scss/inner.scss */
 .rate__search input {
   float: left;
 }
 
-/* line 319, ../scss/inner.scss */
+/* line 313, ../scss/inner.scss */
 .rate__search-txt {
   width: 114px;
   height: 21px;
@@ -442,7 +427,7 @@
   border-top: 1px solid #7f7f7f;
 }
 
-/* line 328, ../scss/inner.scss */
+/* line 322, ../scss/inner.scss */
 .rate__search-btn {
   width: 22px;
   height: 22px;
@@ -460,18 +445,18 @@
 }
 
 /*scroll*/
-/* line 341, ../scss/inner.scss */
+/* line 335, ../scss/inner.scss */
 .jspContainer {
   overflow: hidden;
   position: relative;
 }
 
-/* line 346, ../scss/inner.scss */
+/* line 340, ../scss/inner.scss */
 .jspPane {
   position: absolute;
 }
 
-/* line 350, ../scss/inner.scss */
+/* line 344, ../scss/inner.scss */
 .jspVerticalBar {
   position: absolute;
   top: 0;
@@ -480,12 +465,12 @@
   height: 100%;
 }
 
-/* line 358, ../scss/inner.scss */
+/* line 352, ../scss/inner.scss */
 .jspCap {
   display: none;
 }
 
-/* line 362, ../scss/inner.scss */
+/* line 356, ../scss/inner.scss */
 .jspTrack {
   width: 3px;
   right: -4px;
@@ -493,7 +478,7 @@
   position: relative;
 }
 
-/* line 369, ../scss/inner.scss */
+/* line 363, ../scss/inner.scss */
 .jspDrag {
   background: #bbd;
   position: relative;
@@ -505,7 +490,7 @@
   height: 11px;
 }
 
-/* line 378, ../scss/inner.scss */
+/* line 372, ../scss/inner.scss */
 .jspArrow {
   background: #50506d;
   text-indent: -20000px;
@@ -513,23 +498,23 @@
   cursor: pointer;
 }
 
-/* line 385, ../scss/inner.scss */
+/* line 379, ../scss/inner.scss */
 .jspArrow.jspDisabled {
   cursor: default;
   background: #80808d;
 }
 
-/* line 390, ../scss/inner.scss */
+/* line 384, ../scss/inner.scss */
 .jspVerticalBar .jspArrow {
   height: 16px;
 }
 
-/* line 394, ../scss/inner.scss */
+/* line 388, ../scss/inner.scss */
 .jspVerticalBar .jspArrow:focus {
   outline: none;
 }
 
-/* line 398, ../scss/inner.scss */
+/* line 392, ../scss/inner.scss */
 .jspCorner {
   background: #eeeef4;
   float: left;
@@ -537,7 +522,7 @@
 }
 
 /* Yuk! CSS Hack for IE6 3 pixel bug :( */
-/* line 406, ../scss/inner.scss */
+/* line 400, ../scss/inner.scss */
 * html .jspCorner {
   margin: 0 -3px 0 0;
 }

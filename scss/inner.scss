@@ -6,10 +6,10 @@
 }
 .paper-inner {
 	position: absolute;
-	top: -10;
+	top: -10px;
 	left: -40px;
 	width: 360px;
-	height: 340px;
+	height: 240px;
 	background: url(../img/paper-inner.png) no-repeat 0 0;
 	z-index: 10;
 }
@@ -168,14 +168,12 @@
 .codes {
 	position: absolute;
 	bottom: 310px;
-	left: 30px;
+	left: 50%;
 	width: 104px;
 	padding: 20px 20px 15px 20px;
+	margin-left: -560px;
 	background: #375996;
 	color: #fff;
-	@include respond-to(pda) {
-		left: -30px;
-	}
 }
 .codes__top {
 	padding: 0 0 10px 10px;	
@@ -237,23 +235,19 @@
 .photo-group {
 	position: absolute;
 	bottom: 115px;
-	left: 30px;
+	left: 50%;
+	margin-left: -560px;
 	@include sized-sprite($icons, photo);
-	@include respond-to(pda) {
-		left: -30px;
-	}
 }
 /*rate*/
 .rate {
 	position: absolute;
-	right: 30px;
+	right: 50%;
 	bottom: 250px;
 	width: 155px;
 	padding: 20px 15px 30px 15px;
+	margin-right: -600px;
 	background: #375996;
-	@include respond-to(pda) {
-		right: -60px;
-	}
 	.h1 {
 		margin-bottom: 10px;
 	}

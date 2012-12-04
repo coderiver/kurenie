@@ -47,6 +47,7 @@ input, textarea, button {
 	min-width: 996px;
 	min-height: 800px;
 	background: url(../img/bg-1.jpg) no-repeat 50% 0 $blue; 
+	overflow: hidden;
 }
 /*nav*/
 .nav {
