@@ -1,0 +1,6 @@
+@charset "IBM866";
+/* line 2, ../scss/ie - копия.scss */
+.ie8 .wrap {
+  height: 100% !important;
+  height: 768px;
+}

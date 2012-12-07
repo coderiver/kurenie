@@ -7,5 +7,10 @@ $('.codes__scroll').jScrollPane({
 	verticalDragMaxHeight: 11
 });
 
+$('.gallery, .accel__table').jScrollPane({
+	hideFocus: true,
+	contentWidth: '0px',
+	verticalDragMaxHeight: 31
+});
 
 });

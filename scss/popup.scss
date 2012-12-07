@@ -1,0 +1,411 @@
+@import "compass/css3";
+@import "base";
+/*popup*/
+.popup-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.96);
+	z-index: 100;
+}
+.popup {
+	position: fixed;
+	top: 130px;
+	left: 50%;
+	width: 550px;
+	padding: 12px;
+	margin-left: -287px;
+	background: url(../img/nav-bg.jpg);
+	z-index: 150;
+}
+.popup__inner {
+	padding: 30px;
+	background: #f5f5f5;
+	p {
+		margin-bottom: 10px;
+		font-size: 13px;
+		color: #4e4e4e;
+		line-height: 1.2;
+	}
+}
+.popup__title {
+	position: relative;
+	height: 80px;
+	padding-left: 25px;
+	background: #001556;
+	font: normal 30px/80px 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
+	color: #fff;	
+	text-shadow: 2px 2px 2px #000;		
+	button {
+		position: absolute;
+		top: 6px;
+		right: 4px;
+		@include sized-sprite($icons, close1);
+		cursor: pointer;
+	}
+	i {
+		position: absolute;
+		top: 80px;
+		left: 0;
+		width: 100%;
+		height: 10px;
+		@include background-image(linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,0)));
+	}
+}
+.popup__fields {
+	overflow: hidden;
+	span {
+		float: left;
+		width: 65px;
+		height: 36px;
+		padding-left: 5px;
+		line-height: 28px;
+		font-size: 14px;
+		color: #010101;
+	}
+	sup {
+		margin-left: 3px;
+		color: #ff0000;
+	}
+	input {
+		float: left;
+	}
+}
+.popup__att {
+	font-size: 10px;
+	color: #8595c6;
+}
+.input-text {
+	width: 254px;
+	height: 34px;
+	margin-right: 15px;
+	padding: 0 10px;
+	background: #fff;
+	border: 1px solid #c7c7c5;
+}
+.input-submit {
+	width: 117px;
+	height: 36px;
+	background: #fff;
+	border: 2px solid #6f96de;
+	@include border-radius(3px);
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: #1147b7;
+	cursor: pointer;
+}
+.input-submit_gray {
+	width: 77px;
+	color: #868299;
+	border: 2px solid #a6a6a6;
+}
+//friends
+.popup_friends {
+	.popup__fields {
+		margin-bottom: 30px;
+	}
+}
+.popup_stop-race, .popup_photo-add {
+	.popup__fields {
+		margin: 20px 0 0 0;
+	}
+	.input-submit {
+		float: right;
+		margin-left: 17px;
+	}
+}
+.fuel {
+	li {
+		margin-top: 30px;
+		&:first-child {
+			margin-top: 0px;
+		}
+	}
+	p {
+		padding-top: 6px;
+		margin: 6px 0 0 0;
+		border-top: 1px dashed #b2b2b2;
+		font-size: 12px;
+		color: #010101;
+	}
+}
+.popup_accel {
+	.popup__inner {
+		padding: 10px 0 10px 24px;
+	}
+}
+.accel {	
+	.jspTrack
+	{
+		width: 7px;
+		right: 5px;
+		background: #ddd;
+		position: relative;
+		@include border-radius(3px);
+	}
+	.jspDrag
+	{
+		position: relative;
+		top: 0;
+		left: -2px;
+		cursor: pointer;
+		@include sized-sprite($icons, drag1);
+	}
+	.jspVerticalBar
+	{
+		width: 7px;
+	}
+}
+.accel__table {
+	width: 520px;
+	height: 335px;
+	overflow: auto;
+}
+.accel__item {
+	overflow: hidden;
+	&:first-child {
+		.accel__name, .accel__count, .accel__days {
+			border-top: none;
+		}
+	}
+}
+.accel__name, .accel__count, .accel__days {
+	float: left;
+	height: 37px;
+	line-height: 37px;	
+	border-top: 1px dashed #b1b1b1;
+}
+.accel__name {
+	width: 218px;
+	border-right: 1px solid #d9d9d9;
+	font-size: 14px;
+	color: #010101;
+}
+.accel__count {
+	position: relative;
+	padding-left: 14px;
+	width: 143px;
+	border-right: 1px solid #d9d9d9;
+	font-size: 12px;
+	color: #6f6f72;
+	span {
+		margin-right: 5px;
+		color: #010101;
+	}
+	i {
+		position: absolute;
+		top: 11px;
+		left: 116px;
+	}
+}
+.accel__full {
+	@include sized-sprite($icons, accel2);
+	z-index: 10;
+}
+.accel__empty {
+	@include sized-sprite($icons, accel1);	
+}
+.accel__days {
+	width: 100px;
+	padding-left: 13px;
+	font-size: 12px;
+	color: #6f6f72;
+}
+.accel__top {
+	overflow: hidden;
+	.accel__name, .accel__count, .accel__days {
+		font-size: 11px;
+		color: #656565;
+		text-transform: uppercase;
+		border-bottom: 1px solid #b8b8b8;
+		border-top: none;
+	}
+	.accel__name, .accel__count {
+		position: relative;
+		em {
+			position: absolute;
+			top: 0;
+			right: -5px;
+			width: 10px;
+			height: 25px;
+			background: #f5f5f5;
+		}
+	}
+}
+//tasks
+.tasks {
+	padding: 70px 0 45px 0;
+	background: url(../img/gallery.png) no-repeat 0 0;
+}
+.tasks__item {
+	position: relative;
+	float: left;
+	margin-right: 90px;
+	color: #375996;
+	b {
+		position: relative;
+		font: normal 20px 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;				
+	}
+	em {
+		position: absolute;
+		top: -14px;
+		right: -26px;
+		font: normal 40px 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;		
+		font-style: normal;
+	}
+	i {
+		display: none;
+		position: absolute;
+		top: 16px;
+		left: 16px;
+		@include sized-sprite($icons, done);
+	}
+	a {
+		display: none;
+		position: absolute;
+		top: 30px;
+		left: -5px;
+		width: 100px;
+		height: 20px;
+		background: #fff;
+		border: 2px solid #193569;
+		@include border-radius(5px);
+		color: #183046;
+		line-height: 20px;
+		text-align: center;
+		text-decoration: none;
+	}
+	span {
+		display: none;
+		position: absolute;
+		top: 28px;
+		left: 21px;
+	}
+}
+.tasks__item-done {
+	i {
+		display: block;
+	}
+}
+.tasks__item-add {
+	a {
+		display: block;
+	}
+}
+.tasks__item-noact {
+	color: #727272;
+	span {
+		display: block;
+	}
+}
+//gallery
+.gallery-popup {
+	position: fixed;
+	top: 130px;
+	left: 50%;	
+	width: 740px;
+	margin-left: -370px;
+	z-index: 150;
+}
+.gallery {
+	height: 345px;
+	overflow: auto;
+	ul {
+		overflow: hidden;
+	}
+	li {
+		position: relative;
+		float: left;
+		width: 152px;
+		height: 155px;
+		margin: 5px 18px 18px 5px;
+		background: url(../img/photo.jpg) no-repeat 0 0;
+	}
+	.gallery__rejected {
+		margin: 0 13px 13px 0;
+		border: 5px solid #e8023d;
+		span {
+			color: #e8023d;
+		}
+	}
+	.gallery__approved {
+		margin: 0 13px 13px 0;
+		border: 5px solid #0d5ea6;
+		span {
+			color: #0d5ea6;
+		}
+	}
+	img {
+		position: absolute;
+		left: 10px;
+	}
+	span {
+		position: absolute;
+		top: 124px;
+		left: 50px;
+		width: 94px;
+		height: 24px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		line-height: 1.2;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+	.jspTrack
+	{
+		width: 7px;
+		right: 5px;
+		background: #ddd;
+		position: relative;
+		@include border-radius(3px);
+	}
+	.jspDrag
+	{
+		position: relative;
+		top: 0;
+		left: -2px;
+		cursor: pointer;
+		@include sized-sprite($icons, drag1);
+	}
+	.jspVerticalBar
+	{
+		width: 7px;
+	}
+}
+.gallery__user {
+	top: 111px;
+	z-index: 10;
+}
+.gallery__photo {
+	top: 11px;	
+}
+.gallery__view {
+	margin-top: 20px;
+	padding-right: 50px;
+	text-align: center;
+	a {
+		display: inline-block;
+		margin: 0 10px;
+		font-size: 11px;
+		color: #686868;
+		&.active {
+			color: #141414;
+			text-decoration: none;
+		}
+	}
+}
+.gallery-close {
+	position: fixed;
+	top: 100px;
+	right: 60px;
+	width: 116px;
+	height: 16px;
+	background: url(../img/close.png) no-repeat 0 0;
+	cursor: pointer;
+	z-index: 150;
+}

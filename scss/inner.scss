@@ -165,6 +165,7 @@
 	margin-left: -560px;
 	background: #375996;
 	color: #fff;
+	z-index: 20;
 }
 .codes__top {
 	padding: 0 0 10px 10px;	
@@ -220,6 +221,26 @@
 	b, span {
 		display: block;
 		margin-bottom: 2px;
+	}
+	.jspTrack
+	{
+		width: 3px;
+		right: -4px;
+		background: #103067;
+		position: relative;
+	}
+	.jspDrag
+	{
+		background: #bbd;
+		position: relative;
+		top: 0;
+		left: -4px;
+		cursor: pointer;
+		@include sized-sprite($icons, drag);
+	}
+	.jspVerticalBar
+	{
+		width: 11px;
 	}
 }
 /*photo-group*/
@@ -336,28 +357,11 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 11px;
 	height: 100%;
 }
 .jspCap
 {
 	display: none;
-}
-.jspTrack
-{
-	width: 3px;
-	right: -4px;
-	background: #103067;
-	position: relative;
-}
-.jspDrag
-{
-	background: #bbd;
-	position: relative;
-	top: 0;
-	left: -4px;
-	cursor: pointer;
-	@include sized-sprite($icons, drag);
 }
 .jspArrow
 {
