@@ -119,7 +119,7 @@ input, textarea, button {
   width: 100%;
   height: 100px;
   background: #001856;
-  z-index: 150;
+  z-index: 500;
 }
 /* line 86, ../scss/common.scss */
 .footer ul {

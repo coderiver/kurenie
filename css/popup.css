@@ -22,6 +22,13 @@
 }
 
 /* line 15, ../scss/popup.scss */
+.popup-bg_dark {
+  display: none;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 160;
+}
+
+/* line 20, ../scss/popup.scss */
 .popup {
   position: fixed;
   top: 130px;
@@ -33,12 +40,12 @@
   z-index: 150;
 }
 
-/* line 25, ../scss/popup.scss */
+/* line 30, ../scss/popup.scss */
 .popup__inner {
   padding: 30px;
   background: #f5f5f5;
 }
-/* line 28, ../scss/popup.scss */
+/* line 33, ../scss/popup.scss */
 .popup__inner p {
   margin-bottom: 10px;
   font-size: 13px;
@@ -46,7 +53,7 @@
   line-height: 1.2;
 }
 
-/* line 35, ../scss/popup.scss */
+/* line 40, ../scss/popup.scss */
 .popup__title {
   position: relative;
   height: 80px;
@@ -56,17 +63,17 @@
   color: #fff;
   text-shadow: 2px 2px 2px #000;
 }
-/* line 43, ../scss/popup.scss */
+/* line 48, ../scss/popup.scss */
 .popup__title button {
   position: absolute;
   top: 6px;
   right: 4px;
-  background: url('../img/icons-s6b4009cfc6.png') 0 -290px no-repeat;
+  background: url('../img/icons-sb06f14af6f.png') 0 -319px no-repeat;
   width: 24px;
   height: 24px;
   cursor: pointer;
 }
-/* line 50, ../scss/popup.scss */
+/* line 55, ../scss/popup.scss */
 .popup__title i {
   position: absolute;
   top: 80px;
@@ -82,11 +89,11 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
 
-/* line 59, ../scss/popup.scss */
+/* line 64, ../scss/popup.scss */
 .popup__fields {
   overflow: hidden;
 }
-/* line 61, ../scss/popup.scss */
+/* line 66, ../scss/popup.scss */
 .popup__fields span {
   float: left;
   width: 65px;
@@ -96,23 +103,23 @@
   font-size: 14px;
   color: #010101;
 }
-/* line 70, ../scss/popup.scss */
+/* line 75, ../scss/popup.scss */
 .popup__fields sup {
   margin-left: 3px;
   color: #ff0000;
 }
-/* line 74, ../scss/popup.scss */
+/* line 79, ../scss/popup.scss */
 .popup__fields input {
   float: left;
 }
 
-/* line 78, ../scss/popup.scss */
+/* line 83, ../scss/popup.scss */
 .popup__att {
   font-size: 10px;
   color: #8595c6;
 }
 
-/* line 82, ../scss/popup.scss */
+/* line 87, ../scss/popup.scss */
 .input-text {
   width: 254px;
   height: 34px;
@@ -122,7 +129,7 @@
   border: 1px solid #c7c7c5;
 }
 
-/* line 90, ../scss/popup.scss */
+/* line 95, ../scss/popup.scss */
 .input-submit {
   width: 117px;
   height: 36px;
@@ -140,37 +147,37 @@
   cursor: pointer;
 }
 
-/* line 102, ../scss/popup.scss */
+/* line 107, ../scss/popup.scss */
 .input-submit_gray {
   width: 77px;
   color: #868299;
   border: 2px solid #a6a6a6;
 }
 
-/* line 109, ../scss/popup.scss */
+/* line 114, ../scss/popup.scss */
 .popup_friends .popup__fields {
   margin-bottom: 30px;
 }
 
-/* line 114, ../scss/popup.scss */
+/* line 119, ../scss/popup.scss */
 .popup_stop-race .popup__fields, .popup_photo-add .popup__fields {
   margin: 20px 0 0 0;
 }
-/* line 117, ../scss/popup.scss */
+/* line 122, ../scss/popup.scss */
 .popup_stop-race .input-submit, .popup_photo-add .input-submit {
   float: right;
   margin-left: 17px;
 }
 
-/* line 123, ../scss/popup.scss */
+/* line 128, ../scss/popup.scss */
 .fuel li {
   margin-top: 30px;
 }
-/* line 125, ../scss/popup.scss */
+/* line 130, ../scss/popup.scss */
 .fuel li:first-child {
   margin-top: 0px;
 }
-/* line 129, ../scss/popup.scss */
+/* line 134, ../scss/popup.scss */
 .fuel p {
   padding-top: 6px;
   margin: 6px 0 0 0;
@@ -179,12 +186,12 @@
   color: #010101;
 }
 
-/* line 138, ../scss/popup.scss */
+/* line 143, ../scss/popup.scss */
 .popup_accel .popup__inner {
   padding: 10px 0 10px 24px;
 }
 
-/* line 144, ../scss/popup.scss */
+/* line 149, ../scss/popup.scss */
 .accel .jspTrack {
   width: 7px;
   right: 5px;
@@ -196,38 +203,38 @@
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 152, ../scss/popup.scss */
+/* line 157, ../scss/popup.scss */
 .accel .jspDrag {
   position: relative;
   top: 0;
   left: -2px;
   cursor: pointer;
-  background: url('../img/icons-s6b4009cfc6.png') 0 -418px no-repeat;
+  background: url('../img/icons-sb06f14af6f.png') 0 -447px no-repeat;
   width: 11px;
   height: 31px;
 }
-/* line 160, ../scss/popup.scss */
+/* line 165, ../scss/popup.scss */
 .accel .jspVerticalBar {
   width: 7px;
 }
 
-/* line 164, ../scss/popup.scss */
+/* line 169, ../scss/popup.scss */
 .accel__table {
   width: 520px;
   height: 335px;
   overflow: auto;
 }
 
-/* line 169, ../scss/popup.scss */
+/* line 174, ../scss/popup.scss */
 .accel__item {
   overflow: hidden;
 }
-/* line 172, ../scss/popup.scss */
+/* line 177, ../scss/popup.scss */
 .accel__item:first-child .accel__name, .accel__item:first-child .accel__count, .accel__item:first-child .accel__days {
   border-top: none;
 }
 
-/* line 177, ../scss/popup.scss */
+/* line 182, ../scss/popup.scss */
 .accel__name, .accel__count, .accel__days {
   float: left;
   height: 37px;
@@ -235,7 +242,7 @@
   border-top: 1px dashed #b1b1b1;
 }
 
-/* line 183, ../scss/popup.scss */
+/* line 188, ../scss/popup.scss */
 .accel__name {
   width: 218px;
   border-right: 1px solid #d9d9d9;
@@ -243,7 +250,7 @@
   color: #010101;
 }
 
-/* line 189, ../scss/popup.scss */
+/* line 194, ../scss/popup.scss */
 .accel__count {
   position: relative;
   padding-left: 14px;
@@ -252,34 +259,34 @@
   font-size: 12px;
   color: #6f6f72;
 }
-/* line 196, ../scss/popup.scss */
+/* line 201, ../scss/popup.scss */
 .accel__count span {
   margin-right: 5px;
   color: #010101;
 }
-/* line 200, ../scss/popup.scss */
+/* line 205, ../scss/popup.scss */
 .accel__count i {
   position: absolute;
   top: 11px;
   left: 116px;
 }
 
-/* line 206, ../scss/popup.scss */
+/* line 211, ../scss/popup.scss */
 .accel__full {
-  background: url('../img/icons-s6b4009cfc6.png') 0 -624px no-repeat;
+  background: url('../img/icons-sb06f14af6f.png') 0 -653px no-repeat;
   width: 28px;
   height: 15px;
   z-index: 10;
 }
 
-/* line 210, ../scss/popup.scss */
+/* line 215, ../scss/popup.scss */
 .accel__empty {
-  background: url('../img/icons-s6b4009cfc6.png') 0 -672px no-repeat;
+  background: url('../img/icons-sb06f14af6f.png') 0 -701px no-repeat;
   width: 28px;
   height: 15px;
 }
 
-/* line 213, ../scss/popup.scss */
+/* line 218, ../scss/popup.scss */
 .accel__days {
   width: 100px;
   padding-left: 13px;
@@ -287,11 +294,11 @@
   color: #6f6f72;
 }
 
-/* line 219, ../scss/popup.scss */
+/* line 224, ../scss/popup.scss */
 .accel__top {
   overflow: hidden;
 }
-/* line 221, ../scss/popup.scss */
+/* line 226, ../scss/popup.scss */
 .accel__top .accel__name, .accel__top .accel__count, .accel__top .accel__days {
   font-size: 11px;
   color: #656565;
@@ -299,11 +306,11 @@
   border-bottom: 1px solid #b8b8b8;
   border-top: none;
 }
-/* line 228, ../scss/popup.scss */
+/* line 233, ../scss/popup.scss */
 .accel__top .accel__name, .accel__top .accel__count {
   position: relative;
 }
-/* line 230, ../scss/popup.scss */
+/* line 235, ../scss/popup.scss */
 .accel__top .accel__name em, .accel__top .accel__count em {
   position: absolute;
   top: 0;
@@ -313,25 +320,25 @@
   background: #f5f5f5;
 }
 
-/* line 241, ../scss/popup.scss */
+/* line 246, ../scss/popup.scss */
 .tasks {
   padding: 70px 0 45px 0;
   background: url(../img/gallery.png) no-repeat 0 0;
 }
 
-/* line 245, ../scss/popup.scss */
+/* line 250, ../scss/popup.scss */
 .tasks__item {
   position: relative;
   float: left;
   margin-right: 90px;
   color: #375996;
 }
-/* line 250, ../scss/popup.scss */
+/* line 255, ../scss/popup.scss */
 .tasks__item b {
   position: relative;
   font: normal 20px 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
 }
-/* line 254, ../scss/popup.scss */
+/* line 259, ../scss/popup.scss */
 .tasks__item em {
   position: absolute;
   top: -14px;
@@ -339,17 +346,17 @@
   font: normal 40px 'Conv_Mbr-Kraftwerk-RU', Arial, sans-serif;
   font-style: normal;
 }
-/* line 261, ../scss/popup.scss */
+/* line 266, ../scss/popup.scss */
 .tasks__item i {
   display: none;
   position: absolute;
   top: 16px;
   left: 16px;
-  background: url('../img/icons-s6b4009cfc6.png') 0 -185px no-repeat;
+  background: url('../img/icons-sb06f14af6f.png') 0 -185px no-repeat;
   width: 59px;
   height: 19px;
 }
-/* line 268, ../scss/popup.scss */
+/* line 273, ../scss/popup.scss */
 .tasks__item a {
   display: none;
   position: absolute;
@@ -369,7 +376,7 @@
   text-align: center;
   text-decoration: none;
 }
-/* line 283, ../scss/popup.scss */
+/* line 288, ../scss/popup.scss */
 .tasks__item span {
   display: none;
   position: absolute;
@@ -377,26 +384,26 @@
   left: 21px;
 }
 
-/* line 291, ../scss/popup.scss */
+/* line 296, ../scss/popup.scss */
 .tasks__item-done i {
   display: block;
 }
 
-/* line 296, ../scss/popup.scss */
+/* line 301, ../scss/popup.scss */
 .tasks__item-add a {
   display: block;
 }
 
-/* line 300, ../scss/popup.scss */
+/* line 305, ../scss/popup.scss */
 .tasks__item-noact {
   color: #727272;
 }
-/* line 302, ../scss/popup.scss */
+/* line 307, ../scss/popup.scss */
 .tasks__item-noact span {
   display: block;
 }
 
-/* line 307, ../scss/popup.scss */
+/* line 312, ../scss/popup.scss */
 .gallery-popup {
   position: fixed;
   top: 130px;
@@ -406,16 +413,16 @@
   z-index: 150;
 }
 
-/* line 315, ../scss/popup.scss */
+/* line 320, ../scss/popup.scss */
 .gallery {
   height: 345px;
   overflow: auto;
 }
-/* line 318, ../scss/popup.scss */
+/* line 323, ../scss/popup.scss */
 .gallery ul {
   overflow: hidden;
 }
-/* line 321, ../scss/popup.scss */
+/* line 326, ../scss/popup.scss */
 .gallery li {
   position: relative;
   float: left;
@@ -424,30 +431,30 @@
   margin: 5px 18px 18px 5px;
   background: url(../img/photo.jpg) no-repeat 0 0;
 }
-/* line 329, ../scss/popup.scss */
+/* line 334, ../scss/popup.scss */
 .gallery .gallery__rejected {
   margin: 0 13px 13px 0;
   border: 5px solid #e8023d;
 }
-/* line 332, ../scss/popup.scss */
+/* line 337, ../scss/popup.scss */
 .gallery .gallery__rejected span {
   color: #e8023d;
 }
-/* line 336, ../scss/popup.scss */
+/* line 341, ../scss/popup.scss */
 .gallery .gallery__approved {
   margin: 0 13px 13px 0;
   border: 5px solid #0d5ea6;
 }
-/* line 339, ../scss/popup.scss */
+/* line 344, ../scss/popup.scss */
 .gallery .gallery__approved span {
   color: #0d5ea6;
 }
-/* line 343, ../scss/popup.scss */
+/* line 348, ../scss/popup.scss */
 .gallery img {
   position: absolute;
   left: 10px;
 }
-/* line 347, ../scss/popup.scss */
+/* line 352, ../scss/popup.scss */
 .gallery span {
   position: absolute;
   top: 124px;
@@ -460,7 +467,7 @@
   font-size: 10px;
   text-transform: uppercase;
 }
-/* line 360, ../scss/popup.scss */
+/* line 365, ../scss/popup.scss */
 .gallery .jspTrack {
   width: 7px;
   right: 5px;
@@ -472,52 +479,52 @@
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 368, ../scss/popup.scss */
+/* line 373, ../scss/popup.scss */
 .gallery .jspDrag {
   position: relative;
   top: 0;
   left: -2px;
   cursor: pointer;
-  background: url('../img/icons-s6b4009cfc6.png') 0 -418px no-repeat;
+  background: url('../img/icons-sb06f14af6f.png') 0 -447px no-repeat;
   width: 11px;
   height: 31px;
 }
-/* line 376, ../scss/popup.scss */
+/* line 381, ../scss/popup.scss */
 .gallery .jspVerticalBar {
   width: 7px;
 }
 
-/* line 380, ../scss/popup.scss */
+/* line 385, ../scss/popup.scss */
 .gallery__user {
   top: 111px;
   z-index: 10;
 }
 
-/* line 384, ../scss/popup.scss */
+/* line 389, ../scss/popup.scss */
 .gallery__photo {
   top: 11px;
 }
 
-/* line 387, ../scss/popup.scss */
+/* line 392, ../scss/popup.scss */
 .gallery__view {
   margin-top: 20px;
   padding-right: 50px;
   text-align: center;
 }
-/* line 391, ../scss/popup.scss */
+/* line 396, ../scss/popup.scss */
 .gallery__view a {
   display: inline-block;
   margin: 0 10px;
   font-size: 11px;
   color: #686868;
 }
-/* line 396, ../scss/popup.scss */
+/* line 401, ../scss/popup.scss */
 .gallery__view a.active {
   color: #141414;
   text-decoration: none;
 }
 
-/* line 402, ../scss/popup.scss */
+/* line 407, ../scss/popup.scss */
 .gallery-close {
   position: fixed;
   top: 100px;
@@ -527,4 +534,65 @@
   background: url(../img/close.png) no-repeat 0 0;
   cursor: pointer;
   z-index: 150;
+}
+
+/* line 418, ../scss/popup.scss */
+.popup-photo {
+  display: none;
+  position: fixed;
+  top: 115px;
+  left: 50%;
+  width: 488px;
+  margin-left: -260px;
+  padding: 16px 16px 10px 16px;
+  background: #fff;
+  z-index: 170;
+}
+
+/* line 429, ../scss/popup.scss */
+.popup-photo__pic {
+  margin-bottom: 6px;
+}
+/* line 431, ../scss/popup.scss */
+.popup-photo__pic img {
+  display: block;
+}
+
+/* line 435, ../scss/popup.scss */
+.popup-photo__author {
+  height: 35px;
+  line-height: 35px;
+  overflow: hidden;
+}
+/* line 439, ../scss/popup.scss */
+.popup-photo__author img {
+  float: left;
+  margin-right: 10px;
+}
+/* line 443, ../scss/popup.scss */
+.popup-photo__author a {
+  float: left;
+  font-size: 11px;
+  color: #141414;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* line 451, ../scss/popup.scss */
+.close-photo {
+  position: relative;
+  float: right;
+  padding-right: 25px;
+  font: normal 12px/35px "Conv_Mbr-Kraftwerk-RU", Arial, sans-serif;
+  color: #054986;
+  cursor: pointer;
+}
+/* line 458, ../scss/popup.scss */
+.close-photo i {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  background: url('../img/icons-sb06f14af6f.png') 0 -290px no-repeat;
+  width: 19px;
+  height: 19px;
 }
