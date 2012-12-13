@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 //scroll
-$('.codes__scroll').jScrollPane({
+$('.codes__scroll, .results__list').jScrollPane({
 	hideFocus: true,
 	contentWidth: '0px',
 	verticalDragMaxHeight: 11

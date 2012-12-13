@@ -462,3 +462,380 @@
 		@include sized-sprite($icons, close2);
 	}
 }
+//popup map
+.map-popup {
+	position: fixed;
+	top: 65px;
+	left: 50%;	
+	width: 1080px;	
+	margin-left: -540px;
+	z-index: 150;	
+}
+.map {
+	position: relative;
+	height: 530px;
+	margin-bottom: 60px;
+	background: url(../img/map-big.png) no-repeat 120px 90px;
+	.rate {
+		left: 0;
+		bottom: 0;
+		padding: 20px 15px 0px 15px;
+	}
+}
+.map-user {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	padding-top: 50px;
+	background: url(../img/map-title.png) no-repeat 0 0;
+}
+.map-user__name {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #cdcdcf;
+	overflow: hidden;
+	img {
+		float: left;
+		margin-right: 10px;
+		border: 1px solid #a6bace;
+	}
+	a {
+		display: block;
+		padding-top: 4px;
+		font-size: 14px;
+		color: #375996;
+		font-weight: bold;
+		line-height: 1.3;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+.map-user__result {
+	margin: 10px -50px 0 0;
+	overflow: hidden;
+	li {
+		float: left;
+		width: 110px;
+	}
+	b {
+		display: block;
+		margin-bottom: 2px;
+		font-size: 15px;
+	}
+}
+//map close
+.map-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	@include sized-sprite($icons, close3);
+	cursor: pointer;
+}
+//map-info
+.map-info {
+	position: absolute;
+	left: 215px;
+	bottom: 0;
+	ul {
+		margin-bottom: 10px;
+		li {
+			margin-bottom: 3px;
+		}
+		span {
+			display: inline-block;
+			margin-right: 10px;
+		}
+		b, strong, i {
+			display: inline-block;
+			margin-right: 10px;
+			font-weight: bold;
+			font-style: normal;
+		}
+		b {
+			font-size: 25px;
+			color: red;
+		}
+		strong {
+			font-size: 20px;
+			color: #072150;
+		}
+		i {
+			font-size: 20px;
+			color: red;
+		}
+	}
+}
+.txt1 {@include sized-sprite($icons, text1);}
+.txt2 {@include sized-sprite($icons, text2);}
+.txt3 {@include sized-sprite($icons, text3);}
+.txt4 {@include sized-sprite($icons, text4);}
+.txt5 {@include sized-sprite($icons, text5);}
+.txt6 {@include sized-sprite($icons, text6);}
+.txt7 {@include sized-sprite($icons, text7);}
+.txt8 {@include sized-sprite($icons, text8);}
+.txt9 {@include sized-sprite($icons, text9);}
+.txt10 {@include sized-sprite($icons, text10);}
+.txt11 {@include sized-sprite($icons, text11);}
+.txt12 {@include sized-sprite($icons, text12);}
+.txt13 {@include sized-sprite($icons, text13);}
+.map-form {
+	padding: 20px;
+	border: 5px solid #072150;
+	@include border-radius(10px);
+	overflow: hidden;
+	b, input {
+		float: left;
+	}
+	b {
+		margin: 3px 10px 0 0;
+	}
+	span {
+		display: block;
+		padding: 5px 5px 0 0;
+		margin-bottom: -10px;
+		text-align: right;
+		color: #375996;
+	}
+}
+.map-form_tank {
+	width: 285px;
+	b {
+		@include sized-sprite($icons, text7);
+	}
+}
+.map-form_turbo {
+	width: 210px;
+	b {
+		@include sized-sprite($icons, turbo);
+	}
+}
+.map-form_search {
+	position: absolute;
+	top: 50px;
+	right: 0;
+	padding: 0;
+	border: none;
+	b {
+		margin: 1px 10px 0 0;
+		@include sized-sprite($icons, text14);
+	}
+}
+.map-form__code {
+	width: 113px;
+	height: 21px;
+	padding: 0 5px;
+	margin-right: 3px;
+	background: url(../img/stop-bg.jpg) no-repeat 0 0;
+	@include border-radius(2px);
+	color: #fff;
+	font-style: italic;
+	font-size: 12px;
+}
+.map-form__btn {
+	height: 21px;
+	width: 21px;
+	border: 2px solid #193569;
+	@include border-radius(2px);
+	background: #fff;
+	font-size: 9px;
+	color: #0032ac;
+	cursor: pointer;
+}
+//map details
+//map city
+.map-city {
+	position: absolute;
+	height: 40px;
+}
+.map-city_start {
+	top: 225px;
+	left: 250px;
+	width: 195px;
+	background: url(../img/city2.png) no-repeat 0 0;
+}
+.map-city_finish {
+	top: 430px;
+	right: 65px;
+	width: 180px;
+	background: url(../img/city1.png) no-repeat 0 0;
+}
+//points
+.point-red, .point-blue, .point-dark {
+	display: none;
+	position: absolute;
+	i {
+		position: absolute;
+		bottom: 10px;
+		left: 10px;
+		width: 1px;
+		background: #353535;
+	}
+	span {
+		position: absolute;
+		padding: 2px 0;
+		background: rgba(255,255,255,0.83);		
+		text-align: center;
+		font-size: 13px;
+		font-weight: bold;
+	}
+}
+.point-red {	
+	@include sized-sprite($icons, point-red);
+	i {
+		height: 60px;
+	}
+	span {
+		top: -80px;
+		left: -5px;
+		width: 30px;	
+		color: #000;
+	}
+	b {
+		display: block;
+		margin-bottom: 2px;
+		font-size: 8px;
+	}
+	&.point-hor {
+		i {
+			width: 60px;
+		}
+		span {
+			left: auto;
+			top: auto;
+			right: -80px;
+		}
+	}
+}
+.point-blue, .point-dark {	
+	i {
+		height: 37px;
+	}
+	span {
+		top: -45px;
+		left: 0;
+		width: 20px;
+		color: #375996;		
+	}
+	b {
+		display: none;
+	}
+	&.point-hor {
+		i {
+			width: 37px;
+		}
+		span {
+			top: auto;
+			left: auto;
+			right: -50px;
+		}
+	}
+}
+.point-blue {
+	@include sized-sprite($icons, point-blue);
+}
+.point-dark {
+	@include sized-sprite($icons, point-dark);
+}
+.point-hor {
+	i {
+		height: 1px;
+	}	
+}
+.point-1 {top: 198px;left: 260px;}
+.point-2 {top: 189px;left: 284px;}
+.point-3 {top: 182px;left: 308px;}
+.point-4 {top: 174px;left: 330px;}
+.point-5 {top: 166px;left: 353px;}
+.point-6 {top: 160px;left: 372px;}
+.point-7 {top: 158px;left: 395px;}
+.point-8 {top: 166px;left: 411px;}
+.point-9 {top: 174px;left: 430px;}
+.point-10 {top: 166px;left: 448px;}
+.point-11 {top: 159px;left: 468px;}
+.point-12 {top: 151px;left: 489px;}
+.point-13 {top: 150px;left: 510px;}
+.point-14 {top: 163px;left: 528px;}
+.point-15 {top: 175px;left: 544px;}
+.point-16 {top: 188px;left: 561px;}
+.point-17 {top: 195px;left: 586px;}
+.point-18 {top: 195px;left: 610px;}
+.point-19 {top: 193px;left: 638px;}
+.point-20 {top: 188px;left: 662px;}
+.point-21 {top: 182px;left: 686px;}
+.point-22 {top: 192px;left: 708px;}
+.point-23 {top: 206px;left: 725px;}
+.point-24 {top: 204px;left: 747px;}
+.point-25 {top: 198px;left: 768px;}
+.point-26 {top: 218px;left: 773px;}
+.point-27 {top: 240px;left: 775px;}
+.point-28 {top: 258px;left: 788px;}
+.point-29 {top: 271px;left: 808px;}
+.point-30 {top: 296px;left: 807px;}
+.point-31 {top: 318px;left: 808px;}
+.point-32 {top: 338px;left: 820px;}
+.point-33 {top: 355px;left: 833px;}
+.point-34 {top: 373px;left: 829px;}
+.point-35 {top: 390px;left: 821px;}
+//search
+.results {
+	position: absolute;
+	top: 85px;
+	right: -40px;
+	width: 180px;
+	height: 100px;
+	padding: 10px;
+	background: #fff;
+}
+.results__list {
+	height: 100px;
+	overflow: auto;
+	a {
+		display: block;
+		margin-bottom: 10px;
+		font-size: 11px;	
+		text-decoration: none;
+		font-weight: bold;	
+		color: #000;
+		&:hover {
+			color: red;
+			span {
+				text-decoration: none;
+			}
+		}
+	}
+	i {
+		margin-right: 5px;
+		font-style: normal;
+	}
+	span {
+		display: inline-block;
+		width: 108px;
+		text-decoration: underline;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.jspTrack
+	{
+		width: 3px;
+		right: -4px;
+		background: #103067;
+		position: relative;
+	}
+	.jspDrag
+	{
+		background: #bbd;
+		position: relative;
+		top: 0;
+		left: -4px;
+		cursor: pointer;
+		@include sized-sprite($icons, drag);
+	}
+	.jspVerticalBar
+	{
+		width: 11px;
+	}
+}
+
